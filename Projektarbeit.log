@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.16)  15 APR 2017 21:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.16)  15 APR 2017 21:46
 entering extended mode
 **./Projektarbeit.tex
 (Projektarbeit.tex
@@ -3618,6 +3618,15 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 110.
  [90]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 110.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 110.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 110.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 110.
+ [91]
 chapter without number
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 111.
@@ -3659,7 +3668,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 111.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 111.
-[91
+[92
 
 ]
 Overfull \hbox (8.20296pt too wide) in paragraph at lines 112--112
@@ -3689,7 +3698,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 115.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 115.
-[92]
+[93]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
  (Projektarbeit.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
@@ -3709,13 +3718,13 @@ Package logreq Info: Writing requests to 'Projektarbeit.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
  ) 
 Here is how much of TeX's memory you used:
- 20567 strings out of 493634
- 350460 string characters out of 3147013
+ 20568 strings out of 493634
+ 350467 string characters out of 3147013
  947684 words of memory out of 3000000
  22890 multiletter control sequences out of 15000+200000
  61625 words of font info for 144 fonts, out of 3000000 for 9000
  1029 hyphenation exceptions out of 8191
- 59i,21n,86p,1899b,3118s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 59i,21n,86p,1945b,3118s stack positions out of 5000i,500n,10000p,200000b,50000s
 {F:/Programme/MikTex/fonts/enc/dvips/fontname/8r.enc}{F:/Programme/MikTex/fon
 ts/enc/dvips/kpfonts/kpfonts-expert.enc}<F:/Programme/MikTex/fonts/type1/public
 /kpfonts/jkpbn8a.pfb><F:/Programme/MikTex/fonts/type1/public/kpfonts/jkpmi.pfb>
@@ -3729,9 +3738,9 @@ lic/kpfonts/jkpmne.pfb><F:/Programme/MikTex/fonts/type1/public/kpfonts/jkpmsc8a
 e/MikTex/fonts/type1/public/kpfonts/jkpssbne.pfb><F:/Programme/MikTex/fonts/typ
 e1/public/kpfonts/jkpsy.pfb><F:/Programme/MikTex/fonts/type1/public/kpfonts/jkp
 ttmn8a.pfb>
-Output written on Projektarbeit.pdf (92 pages, 7230138 bytes).
+Output written on Projektarbeit.pdf (93 pages, 7231160 bytes).
 PDF statistics:
- 1748 PDF objects out of 2073 (max. 8388607)
- 687 named destinations out of 1000 (max. 500000)
+ 1752 PDF objects out of 2073 (max. 8388607)
+ 688 named destinations out of 1000 (max. 500000)
  863 words of extra memory for PDF output out of 10000 (max. 10000000)
 
