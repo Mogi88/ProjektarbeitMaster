@@ -311,6 +311,22 @@
       \verb https://developer.apple.com/ios/human-interface-guidelines/overview/design-principles/
       \endverb
     \endentry
+    \entry{JSX}{online}{}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelyear}{2017}
+      \field{labelmonth}{04}
+      \field{labelday}{14}
+      \field{datelabelsource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{JSX}
+      \field{urlday}{14}
+      \field{urlmonth}{04}
+      \field{urlyear}{2017}
+      \verb{url}
+      \verb https://jsx.github.io/
+      \endverb
+    \endentry
     \entry{AndroidHistory}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,hash=474ecac2fcc25b137cfd76c0550ccc7e}{Manjoo}{M\bibinitperiod}{Farhad}{F\bibinitperiod}{}{}{}{}}%
