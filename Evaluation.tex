@@ -1,0 +1,85 @@
+\chapter{Evaluation}
+
+\section{Xamarain}
+
+Installation
+\\
+\\
+Installer von Homepage runtergeladen, ausgeführt. Visual Studio wird direkt mit von der Xamarin-Homepage heruntergeladen und installiert. Installation ist sehr simpel. Man führt den Visual Studio Installer aus, alles notwendige ist vorausgewählt, man kann aber wahlweise noch weitere Komponenten für andere (App-)Entwicklungen mit installieren. Der Xamarin Installer installiert alles notwendige für die App-Entwicklung: auch ein Android SDK und NDK, es muss nicht separat "beschafft" werden. Startet man Visual Studio, kann direkt "losgelegt" werden: neues Projekt, Android App. 
+\\
+Keine Design-Vorauswahl bei der Projekterstellung wie bei Android Studio (e.g. Navigation Drawer), dafür "Pre Built Apps) (Beispielhafte Shopping- oder CRM-App). 
+\\
+Beim erstellen einer Layout Datei ist es nicht möglich direkt zur Source-Ansicht zu wechseln, man muss immer warten bis die Design-Ansicht geladen ist.
+\\
+Viele Komponenten für z.B. das Material Design wie der Navigation Drawer müssen manuell als Bibliotheken hinzugefügt werden. Die notwendigen Komponenten werden nicht in der IDE vorgeschlagen sondern müssen einzeln recherchiert werden. 
+\\
+bauen etc. alles sehr langsam in Visual Studio
+\\
+Eigentlich alle beispielprojekte funktionieren nicht direkt. Es ist immer aufwendiges recherchieren notwendig, welche Verweise/Components/Einstellungen im projekt angepasst werden müssen.
+\\
+GUI Designer unterstützt material Design nicht
+\\
+Bugs: Probleme wenn verschiedene Android SDK Build Tools versionen installiert sind: java unsupported major.minor version 52.0 
+\\
+Schwierigkeiten bei der Komponentenauswahl, manche Versionen "funktionieren" einfach nicht. Alle Komponenten müssen exakt dieselbe Version haben = ziemlich langwierige Fummelei
+
+\section{Corona}
+
+Installation
+\\
+\\
+sehr einfache Installation: man muss nur das Corona SDK runterladen. Ist ein Android SDK installiert, wird dieses automatisch erkannt. Es muss nichts weiter konfiguriert werden, man kann sofort "loslegen". Anleitung für eine erste kleine "testApp" ist leicht verständlich und alles lief auf Anhieb ohne Probleme. In die Programmiersprache LuA ist sich leicht einzuarbeiten, solange der Kontext so simpel bleibt wie bei der TestApp. Komplexere Strukturen sind nicht so leicht zu durchschauen. Programmiersprache ist nicht objektorientiert, nicht intuitiv welche Funktionen wo in einer Seite (Scene) deklariert werden können/müssen und wo und wie sie wieder aufgerufen werden können. Genauere Strukturerklärungen (wie ist eine Scene aufzubauen, wie genau funktionieren scene:create, scene:shoe, etc, lifecycle...) nicht so leicht zu finden, Community-Erklärungen waren hilfreich.
+\\
+GUI: keine Unterstützung der nativen Libraries für Bedienelemente. Alle Bedienelemente werden komplett selbst programmiert, es gibt keine "Fertigbausteine". Um Material-Design ähnliche GUI zu nutzen wurde eine Open Source Library aus GitHub genutzt, die ein Entwickler dort zur Verfügung gestellt hat. 
+\\
+Emulator wird vom Android SDK ohne weitere notwendige Konfiguration genutzt. Im Android Studio vorkonfigurierter Emulator kann direkt genutzt werden. Debuggen auf Gerät schwierig (nochmal recherchieren!). App wird als .apk gebaut und wird zum testen dann auf dem Gerät installiert. Zum Testen von kleinen Änderungen etwas aufwendig, gerade weil Sensoren schlecht bis gar nicht mit dem Emulator zu testen sind. 
+
+\section{Cordova, Ionic}
+
+Homepage von Cordova etwas unübersichtlich
+\\
+Installation
+\\
+\\
+Etwas Sucherei notwendig gewesen für alle Voraussetzungen, was alles installiert sein muss. Kein lineare Anleitung, man muss sich von verschiedenen Stellen der Homepage alle nötigen Informationen zusammen sammeln. Probleme mit JAVA_HOME-Verzeichnis, Cordova fand zuerst nicht die richtige Java-Installation. 
+\\
+\\
+Unter dem Get Startet Teil findet sich erst einmal keine direkte "Anleitung" wie Apps in Cordova (prinzipiell) aufgebaut und entwickelt werden. Es wird nur die Installation und das Erstellen eines Projektes erklärt. Welche Dateien den Source-Code der App beinhalten (werden/sollen) wird nicht klar. Es ist Suchen notwendig um zu Tutorials zu gelangen. In den Tutorials wird nur aufgezeigt, welche Permissions und Methoden für verschiedene Hardware-Nutzungen benötigt werden (Kamera, Accelerometer). Es gibt aber kein "Rezept" für eine erste lauffähige App. Wo der Code hinmuss und welche Programmiersprache überhaupt genutzt wird, bleibt unklar. Keine Info zu IDEs etc. 
+\\
+\\
+Wenn man Cordova bereits installiert hat, ist die Installation von Ionic denkbar simpel: es muss nur eine Kommandozeile ausgeführt werden. Ionic bietet beim Erstellen einer App (Aufbau Grundstruktur des Projekts) eine Tableiste oder ein Navigation-Drawer zur Navigation durch die Anwendung mit an. Ionic bietet für sämtliche GUI-Bausteine eine Übersicht mit Beispielcode. 
+\\
+\\
+Emulator wird von Android Studio genutzt. Ist ein Smartphone am PC angeschlossen, wird die App automatisch auf diesem ausgeführt über den run Befehl. 
+\\
+\\
+Für native Zugriffe (Kamera etc.) werden Cordova Plugins der Anwendung hinzugefügt. Notwendige Permissions müssen nicht manuell hinzugefügt werden, dies geschieht automatisch mit dem Hinzufügen des Plugins.
+\\
+\\
+Wenig Informationen über die Zugriffe auf Sensordaten mit Ionic 2, kaum Beispiele zu finden; teilweise nicht klar, ob es funktioniert; viele Sensoren sind nicht so einfach über das Ionic 2 Framework mit Native anzusprechen (noch nicht integriert?). Man muss allerdings nicht ganz darauf verzichten, da man Cordova-Plugins von anderen Devs oder selbst geschriebene Plugins einbinden kann. Sehr wenige bis gar keine Beispiele für die Nutzung von Sensoren.
+Installationen funktionieren nicht nach Anweisung auf der Ionic Homepage für die Device Motion und Orientation Plugins (Fehlermeldung)
+
+\section{React Native}
+
+Installation
+\\
+\\
+'Get startet' leitet durch die Installation über die Kommando-Shell bis zum Start der ersten leeren Anwendung auf einem Android Gerät.
+\\
+\\
+Bei Beispielen ist nicht immer gleich ersichtlich, in welche Datei der Code gehört, bzw. wo die neue Source-Datei hingehört. Auch das Tutorial erklärt nichts bezüglich der Datei-Struktur. Es scheint vorausgesetzt zu werden das man weiß, wie die Dateistruktur aufzubauen ist. 
+\\
+\\
+weniger Beispiele mit Erläuterungen zu finden als bei den anderen Frameworks, weniger Erklärungen
+\\
+\\
+Einige Beispiele funktionieren nicht (mehr)
+\\
+\\
+einige Tutorial-Beispiele funktionieren nicht auf Anhieb, da Details wie Imports nicht erwähnt werden.
+\\
+\\
+ein Bug in ListView lässt die App beim Aufruf der Kamera-Seite crashen. Der Bug scheint mit dem letzten Update reingekommen zu sein und wurde bereits seit einem Monat nicht behoben. 
+\\
+\\
+Mit React Native kann nicht 'einfach' die Android Camera App aufgerufen werden, die Kameraoberfläche muss selbst implementiert werden.

@@ -1,0 +1,115 @@
+%hidelinks for hide color of clickable references
+%scrreprt koma-script no idea what koma script does
+\documentclass[hidelinks,12pt,a4paper, liststotoc, bibtotoc]{scrreprt}
+%                     liststotoc,            % Tabellen & Abbildungsverzeichnis ins TOC 
+%                     %idxtotoc,             % Index ins TOC 
+%                     bibtotoc,               % Bibliographie ins TOC 
+%                     bibtotocnumbered,    % Bibliographie im TOC nummeriert 
+%                     %liststotocnumbered, % Alle Verzeichnisse im TOC nummeriert 
+
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+
+%\usepackage[T1]{fontenc}
+\usepackage{wrapfig}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{lmodern}
+\usepackage{kpfonts}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{appendix}
+
+\definecolor{pblue}{rgb}{0.13,0.13,1}
+\definecolor{pgreen}{rgb}{0,0.5,0}
+\definecolor{pred}{rgb}{0.9,0,0}
+\definecolor{pgrey}{rgb}{0.46,0.45,0.48}
+
+\usepackage{listings}
+
+\lstset
+{
+    	tabsize=4,    
+    	language=[GNU]C++,
+        basicstyle=\scriptsize,
+        upquote=true,
+        aboveskip={1.5\baselineskip},
+        columns=fixed,
+        showstringspaces=false,
+        extendedchars=false,
+        breaklines=true,
+        prebreak = \raisebox{0ex}[0ex][0ex]{\ensuremath{\hookleftarrow}},
+        frame=single,
+        numbers=left,
+        showtabs=false,
+        showspaces=false,
+        showstringspaces=false,
+        identifierstyle=\ttfamily,
+        keywordstyle=\color[rgb]{0,0,1},
+        commentstyle=\color[rgb]{0.026,1,0.095},
+        stringstyle=\color[rgb]{0.627,0.126,0.941},
+        numberstyle=\color[rgb]{0.205, 0.142, 0.73},
+        morekeywords={Mat, vector, shared_ptr, override, Vec2f, MatVec},
+}
+
+\usepackage[doublespacing]{setspace}
+\onehalfspacing
+%\usepackage{fourier}
+%\usepackage[left=2.5cm,right=2cm,top=4cm,bottom=4cm]{geometry}
+
+% Beschreibund von Abbildungen NICHT einrücken 
+\setcapindent{0pt}
+
+%%Paket für Verweise auf bestimmte Seiten (klicken auf das Inhaltsverzeichnis)
+\usepackage{hyperref}
+
+%%Paket um die Zitierweise + Literaturverzeichnis einstellen zu können
+\usepackage[style=authoryear-ibid,backend=biber]{biblatex}
+
+%nicht anrücken nach absatz
+\setlength{\parindent}{0pt}
+
+%command um shell Kommandos schön darzustellen
+\newcommand{\shellcmd}[1]{\indent\indent\texttt{\footnotesize\# #1}}
+
+%%Paket für Kopf- und Fußzeile
+\usepackage[]{scrlayer-scrpage}
+%%Kopfzeile mit dem aktuellen Unterkapitel füllen
+\automark{section}
+
+\usepackage{lscape} % Querformat includegraphics
+
+\pagestyle{scrheadings}
+
+%%bib-file einbinden
+\addbibresource{Literatur.bib}
+
+%%Zähler um am Ende auf der Bibliography Seite römisch weiter zählen zu können
+\newcounter{pageNumberAfterContent}
+
+\begin{document}
+
+\input{PA_title}
+
+\tableofcontents
+
+\input{Vorhandene_Loesungsansaetze}
+\input{Grundlagen}
+\input{Anforderungsanalyse}
+\input{Marktanalyse}
+\input{Bewertungskriterien}
+\input{PlanungAnwendung}
+\input{OOA_OOD}
+\input{Implementierung}
+\input{Auswertung}
+
+\newpage
+\printbibliography
+
+%\section*{Literaturverzeichnis}
+
+\end{document}

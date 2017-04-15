@@ -1,0 +1,122 @@
+\chapter{Anforderungsanalyse}
+
+blablabla 
+
+\section{Problemanalyse}
+
+Zur Evaluation der ausgewählten Frameworks wird eine Anwendung designed, welche diverse Hardware- und Software-Funktionalitäten eines Smartphones nutzt und testet. Diese Anwendung wird zunächst als Referenz nativ für die Android Plattform(X) in Android Studio entwickelt um anschließend mit 5 ausgewählten Frameworks neu umgesetzt zu werden. Auf diese Weise wird überprüft und evaluiert, welche Funktionalitäten mit welchen Frameworks nutzbar sind und welcher eventuelle Mehr-Aufwand entsteht. Zudem wird bei der Neuumsetzung mit den ausgewählten Frameworks überprüft, inwieweit sich die GUI der nativen Anwendung im Material Design(X) nachstellen lässt. 
+\\
+\\
+Als weitere Grundlage für die Evaluation der Frameworks dient eine Umfrage, die an Studierende der Fachhochschule Dortmund mit Erfahrung im Bereich Anwendungsentwicklung gestellt wurde. Mit Hilfe dieser Umfrage werden weitere Kriterien ermittelt, die Entwicklern wichtig bei der Arbeit mit einem Framework sind.
+\\
+\\
+Aus oben genannten Hardware- und Software-Funktionalitäten und den durch die Umfrage ermittelten Kriterien wird eine Evaluations-Matrix erstellt, welche während der Umsetzung der Referenz-Anwendung mit den ausgewählten Frameworks gefüllt wird. Aus dieser Matrix sollen anschließend die Möglichkeiten, sowie die Vor- und Nachteile, die ein Framework bietet, abgelesen werden können.
+
+\section{Funktionale und nichtfunktionale Anforderungen}
+
+Zunächst werden die funktionalen Anforderungen, also Anforderungen, die sich direkt auf die Funktionalitäten der Referenzanwendung beziehen, und die nichtfunktionalen Anforderungen definiert. Die funktionalen Anforderungen werden in folgende Bereiche unterteilt: Zugriffsmöglichkeiten und Nutzung von Hardware-Komponenten wie zum Beispiel Sensoren und Kamera, die Möglichkeiten bei der Gestaltung der grafischen Benutzeroberfläche, ... Danach werden noch die nichtfunktionalen Anforderungen beschrieben, welche in folgende Kategorien unterteilt sind: ...
+
+\subsection{FA: Nutzung von Hardware-Komponenten}
+
+\begin{itemize}
+
+\item Accelerometer
+\begin{list}{}{}
+\item Es muss möglich sein, die Accelerometer-API anzusprechen und so Daten vom Accelerometer abzugreifen und nutzen zu können. 
+\end{list}
+
+\item Vibration
+\begin{list}{}{}
+\item Es muss möglich sein die Vibrationsfunktion des Smartphones anzusprechen und nutzen zu können.
+\end{list}
+
+\item Kamera
+\begin{list}{}{}
+\item Sowohl die Front- als auch die Rückkamera des Smartphones müssen über das Framework ansprechbar und benutzbar sein. 
+\end{list}
+
+\item GPS
+\begin{list}{}{}
+\item Das GPS des Smartphones muss nutzbar sein, um die aktuelle Position des Gerätes ermitteln und anzeigen lassen zu können. 
+\end{list}
+
+\item Speicher
+\begin{list}{}{}
+\item Es muss möglich sein Dateien in den lokalen Speicher des Smartphones zu schreiben, lesen und auch wieder zu löschen.
+\end{list}
+
+\item Netzwerknutzung
+\begin{list}{}{}
+\item Es muss möglich sein in einer mit dem zu testenden Framework gebauten Anwendung Zugriff zum Internet zu bekommen und gegebenenfalls Dateien herunterladen zu können.
+\end{list}
+
+\item Lagesensor/Gyroskop
+\begin{list}{}{}
+\item Es soll geprüft werden, ob der Lagesensor von einer Anwendung, welche mit dem zu testenden Framework entwickelt wurde, ansprechbar ist um die Lage des Smartphones ermitteln zu können.
+\end{list}
+
+\item Näherungssensor
+\begin{list}{}{}
+\item Es soll geprüft werden, ob der Näherungssensor eines Smartphones muss weiterhin nutzbar ist.
+\end{list}
+
+\item Notifications
+\begin{list}{}{}
+\item Es soll überprüft werden, ob Notifications über eine in dem zu testenden Framework entwickelten Anwendung ausgegeben werden können.
+\end{list}
+
+\item Kommunikation
+\begin{list}{}{}
+\item Es soll getestet werden, ob Kommunikationen via Bluetooth und WiFi für Gerät-zu-Gerät- und Gerät-zu-Netzwerk-Kommunikation möglich sind.
+\end{list}
+
+\item Speicher
+\begin{list}{}{}
+\item Es soll geprüft werden, ob Dateien in den lokalen Speicher des Smartphones geschrieben, gelesen und auch wieder gelöscht werden können. Hierbei soll zusätzlich überprüft werden, welche Datenhaltungsformate unterstützt werden.
+\end{list}
+
+\end{itemize}
+
+\subsection{FA: Die grafische Benutzeroberfläche}
+
+Ein natives Look-And-Feel einer mobilen Anwendung bedeutet, dass die grafische Benutzeroberfläche dem Benutzer das Gefühl einer nativen Anwendung vermittelt. Die ausgewählten Frameworks müssen hierzu die Möglichkeit bieten, native Bedienelemente bei der Entwicklung von Anwendungen zu verwenden. Es muss möglich sein die Oberfläche einer Anwendung nach dem Design-Standard des entsprechenden Betriebssystems (Android, iOS) aufzubauen. Hier wird im Falle des Betriebssystems Android der aktuelle Design-Standard ‚Material Design‘ (X) gefordert. Um dies zu testen ist es notwendig in die Test-Anwendung gängige Bedienelemente wie zum Beispiel Action-Bars, Floating Buttons und Navigationselemente zu integrieren.
+
+\subsection{FA: Betriebssysteme}
+
+Für jedes zu untersuchende Framework soll ermittelt werden, für welche Plattformen sich Anwendungen damit entwickeln lassen. Der Fokus liegt hierbei auf den mobilen Betriebssystemen Android und iOS, da diese den Großteil des Marktes ausmachen (vgl. Kapitel X). Hierbei soll auch berücksichtigt werden, wie viele und welche ältere Versionen der Betriebssysteme vom entsprechenden Framework unterstützt werden und inwieweit eine Anwendung abwärtskompatibel ist. Auch soll untersucht werden wie viel Zeit die Hersteller der Frameworks durchschnittlich benötigen um auf ein Betriebssystemupdate seitens iOS und Android zu reagieren.
+\\\\
+Zudem wird ermittelt auf welchen Betriebssystemen die Frameworks für die Entwicklung installiert werden können.  
+
+\subsection{FA: Sicherheit}
+
+Bezüglich der Sicherheitsaspekte von mobilen Anwendungen soll überprüft werden, ob und inwieweit das Rechtemanagement der jeweiligen Plattform (Android, iOS) nativ unterstützt wird. Dies beinhaltet unter anderem die Regelung der Zugriffe auf Gerätefunktionen wie Speicher oder die Kameras. Auch wird untersucht, ob es Möglichkeiten zur Hinterlegung von Sicherheitszertifikaten gibt und ob ein eigener privater Zertifikatspeicher eingerichtet werden kann. 
+
+\subsection{FA: Interoperabilität/Erweiterbarkeit}
+
+Unter dem Sammelpunkt Interoperabilität und Erweiterbarkeit finden sich Prüfungen, die sich auf eine mögliche Anpassbarkeit der Frameworks und die Nutzung von Bibliotheken von Fremdanbietern beziehen. In diesem Zuge wird auch ermittelt, ob sich die Frameworks in gängige IDEs, wie zum Beispiel Visual Studio oder Eclipse integrieren lassen und ob es eine Auswahl an Programmiersprachen gibt, mit denen entwickelt werden kann.
+
+\subsection{FA: Tests und Performance}
+
+Bei der Evaluierung von Frameworks für Crossplatform- beziehungsweise hybrider Anwendungs-entwicklung wird auch untersucht inwiefern die einzelnen Frameworks Werkzeuge zum Schreiben und Durchführen von (automatisierten) Tests selbst anbieten oder unterstützen. Die Anwendung, die als Evaluationshilfe im Rahmen dieser Arbeit entwickelt wird, soll zudem Möglichkeiten bieten die Performance der Cross-Platform-Anwendungen mit einer nativen Anwendung zu vergleichen. Hierzu muss die zu entwickelte Test-Anwendung Messungen der Reaktionszeiten der Anwendung ermöglichen. 
+
+\subsection{NFA: Hersteller}
+
+Als eine der nichtfunktionalen Anforderungen wird die Bedeutsamkeit der Hersteller/Anbieter der einzelnen Frameworks recherchiert. Hierzu zählen Attribute wie Unternehmensgröße, Bekanntheitsgrad (Score), Produktpalette und Einsätze. Zudem werden in diesem Rahmen auch die Entwicklungsstadien der Frameworks näher durchleuchtet und Fragen hinsichtlich der aktuellen Version und der Anzahl vergangener Updates beantwortet. Auch wird untersucht, in welchem Umfang versprochene Funktionalitäten bereits umgesetzt wurden und welche Erweiterungen und Verbesserungen in Planung sind.  
+
+\subsection{NFA: Support und Community}
+
+Die Untersuchung des Umfangs des Hersteller-Supports findet unter Berücksichtigung folgender Gesichtspunkte statt: Werden Tutorials und Beispiellösungen für verschiedene Problemstellungen geboten? Werden Online-Schulungen und/oder Schulungen mit Anwesenheit angeboten? Gibt es eine Dokumentation, die regelmäßig gepflegt wird? Gibt es ein Forum, in dem Fragen gestellt werden können, die von einem Support-Team des Herstellers beantwortet werden? 
+\\\\
+Zusätzlich zum Hersteller-Support soll auch die Größe der jeweiligen Community betrachtet werden. Die Größe wird dabei anhand der Internetpräsenz bemessen. 
+
+\subsection{NFA: Entwicklung}
+
+Ein wichtiger Faktor bei der Evaluation von Frameworks für hybride und Cross-Platform-Anwendungsentwicklung ist der Entwicklungsprozess mit den entsprechenden Frameworks. Unter diesem Aspekt werden unter anderem die Leichtigkeit der Installation und der Benutzung der Frameworks verglichen. Gemessen wird dies an der notwendigen Einarbeitungszeit und der Zeit die insgesamt für Installation und Einrichtung aller für die Entwicklung notwendigen Werkzeuge benötigt wird. Hier fließt auch der Umfang der Bibliotheken, welche die Frameworks mit sich bringen, in Form folgender Fragestellungen ein: Welche Bausteine für die Entwicklung werden angeboten und was muss alles selbst implementiert werden? Zentrales Kriterium ist auch der Anteil des plattformübergreifend nutzbaren Codes am Gesamtcode, hier am Beispiel der Funktionstest-Anwendung, welche als Werkzeug zur Evaluation dient. 
+
+\subsection{NFA: Lizenz und Kosten}
+
+Bei der Evaluation werden auch etwaige Kosten und Lizenzmodelle der zu untersuchenden Frameworks betrachtet. Hier werden die einzelnen Frameworks hinsichtlich etwaiger Kaufpreise, Monats- oder Jahreslizenzpreise und Kosten für Support sowie Minor und Major Upgrades untersucht. 
+
+\section{Abgrenzungskriterien}
+
+Im Rahmen dieser Projektarbeit wird eine Marktanalyse durchgeführt, um die 5 aktuell relevantesten Frameworks aus dem Bereich hybrider und Cross-Platform-\\Anwendungsentwicklung auszuwählen. Die als Evaluationswerkzeug dienende \\Funktionstest-Anwendung wird einmal nativ als Referenz und anschließend nur mit diesen 5 ausgewählten Frameworks implementiert. Weitere Frameworks werden nur aufgrund ihrer Spezifikationen und Literatur untersucht. Aufgrund der zur Verfügung stehenden Hardware und Software wird die native Variante der mobilen Anwendung, welche als Evaluationswerkzeug entwickelt wird, ausschließlich in Android für ein Android Smartphone entwickelt. Somit werden sich sämtliche Teile der Evaluation, welche mit Hilfe der Funktionstest-Anwendung erarbeitet werden, nur auf die Android-spezifischen Bereiche der Frameworks beziehen können. Bei der Evaluation des nativen Look-And-Feel anhand des GUI-Designs wird sich an den aktuellen Richtlinien für das Material Design von Android orientiert.
