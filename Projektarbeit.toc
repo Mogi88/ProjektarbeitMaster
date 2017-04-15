@@ -158,7 +158,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {9.2}Support und Community}{86}{section.9.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Entwicklung}{86}{section.9.3}
+\contentsline {section}{\numberline {9.3}Entwicklung}{87}{section.9.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {9.4}Hersteller}{91}{section.9.4}
 \defcounter {refsection}{0}\relax 

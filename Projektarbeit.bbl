@@ -359,6 +359,22 @@
       \verb http://searchsoftwarequality.techtarget.com/definition/native-application-native-app
       \endverb
     \endentry
+    \entry{StackOverfolw}{online}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2017}
+      \field{labelmonth}{03}
+      \field{labelday}{13}
+      \field{datelabelsource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Stack Overflow}
+      \field{urlday}{13}
+      \field{urlmonth}{03}
+      \field{urlyear}{2017}
+      \verb{url}
+      \verb https://stackoverflow.com/
+      \endverb
+    \endentry
     \entry{StatistikApps}{online}{}
       \field{sortinit}{S}
       \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
