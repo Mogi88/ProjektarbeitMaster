@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.16)  15 APR 2017 13:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.16)  15 APR 2017 14:02
 entering extended mode
 **./Projektarbeit.tex
 (Projektarbeit.tex
@@ -3527,23 +3527,15 @@ Package pdftex.def Info: Bilder/Auswertung_Entwicklung.PNG used on input line 3
 2.
 (pdftex.def)             Requested size: 448.13095pt x 38.34647pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 42.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 42.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 42.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 42.
  [86 <./Bilder/Auswertung_Entwicklung.PNG>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 41.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 41.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 43.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 43.
-Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 45.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 45.
@@ -3571,6 +3563,14 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 57.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 57.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 59.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 59.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 61.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 61.
 )
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 110.
@@ -3581,6 +3581,15 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 110.
  [87]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 110.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 110.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 110.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 110.
+ [88]
 chapter without number
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 111.
@@ -3622,7 +3631,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 111.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 111.
-[88
+[89
 
 ]
 Overfull \hbox (8.20296pt too wide) in paragraph at lines 112--112
@@ -3652,7 +3661,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 115.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 115.
-[89]
+[90]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
  (Projektarbeit.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
@@ -3672,8 +3681,8 @@ Package logreq Info: Writing requests to 'Projektarbeit.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
  ) 
 Here is how much of TeX's memory you used:
- 20557 strings out of 493634
- 350350 string characters out of 3147013
+ 20558 strings out of 493634
+ 350357 string characters out of 3147013
  947665 words of memory out of 3000000
  22886 multiletter control sequences out of 15000+200000
  61625 words of font info for 144 fonts, out of 3000000 for 9000
@@ -3692,9 +3701,9 @@ lic/kpfonts/jkpmne.pfb><F:/Programme/MikTex/fonts/type1/public/kpfonts/jkpmsc8a
 e/MikTex/fonts/type1/public/kpfonts/jkpssbne.pfb><F:/Programme/MikTex/fonts/typ
 e1/public/kpfonts/jkpsy.pfb><F:/Programme/MikTex/fonts/type1/public/kpfonts/jkp
 ttmn8a.pfb>
-Output written on Projektarbeit.pdf (89 pages, 7217146 bytes).
+Output written on Projektarbeit.pdf (90 pages, 7219978 bytes).
 PDF statistics:
- 1723 PDF objects out of 1728 (max. 8388607)
- 681 named destinations out of 1000 (max. 500000)
+ 1727 PDF objects out of 1728 (max. 8388607)
+ 682 named destinations out of 1000 (max. 500000)
  863 words of extra memory for PDF output out of 10000 (max. 10000000)
 
