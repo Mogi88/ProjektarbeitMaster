@@ -154,6 +154,28 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {9}Auswertung}{85}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}bla}{85}{section.9.1}
+\contentsline {section}{\numberline {9.1}Kosten und Lizenz}{85}{section.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Literatur}{86}{chapter*.2}
+\contentsline {section}{\numberline {9.2}Support und Community}{87}{section.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.3}Entwicklung}{87}{section.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.4}Hersteller}{87}{section.9.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.5}OS-Versionen}{87}{section.9.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.6}Funktionsumfang}{87}{section.9.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.7}GUI-Design}{87}{section.9.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.8}Interoperabilit\IeC {\"a}t}{87}{section.9.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.9}Tests}{87}{section.9.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.10}Performance}{87}{section.9.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.11}Programmiersprache}{87}{section.9.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.12}Sicherheit}{87}{section.9.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Literatur}{88}{chapter*.2}
