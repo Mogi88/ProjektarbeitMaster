@@ -126,11 +126,28 @@ Zur Abwärtskompatibilität lässt sich sagen, dass mit dem Xamarin Framework f�
 
 \section{Funktionsumfang}
 
+Die ausgefüllte Bewertungsmatrix für die Kategorie 'Entwicklung' ist in nachfolgender Abbildung (X) dargestellt.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{Bilder/Auswertung_Funktionsumfang.PNG}
+	\caption{Bewertungsmatrix Kategorie Funktionsumfang}
+	\label{fig:AuswFunktion}
+\end{figure}
+
+Wie schon in Kapitel (X) erwähnt, bietet die API von Xamarin Zugriff auf alle Funktionalitäten, die eine native Android Anwendung auch bietet. Alle Sensoren können ausgelesen werden, Kommunikation via WiFi und Bluetooth ist möglich und eine mit Xamarin geschriebene Anwendung kann Notifications auslösen. Zudem kann auf die native Kamera-Anwendung von Android zugegriffen werden, die alle gebräuchlichen Kamerafunktionen wie Blitz und Kamerawechsel integriert hat. Dateien wie Fotos können an verschiedenen Speicherorten des Smartphones abgelegt werden. 
+\\
+\\
+Bei der Kombination der Frameworks Cordova mit Ionic 2 fehlen noch Schnittstellen zu Barometer-, Näherungs- und Umgebungslichtsensor-Plugins in der Ionic 2 \textit{native}-Bibliothek. Wie schon in Kapitel (X) beschrieben, können trotzdem mit Mehraufwand Plugins eingebunden werden, die diese Sensoren ansprechen können. Wie bei dem Xamarin Framework kann auch mit Ionic die native Android Kamera-Anwendung in die eigene Anwendung integriert werden. Kommunikation via WiFi und Bluetooth sowie Zugriffe auf das Dateisystem und Notifications sind ebenfalls möglich. 
+\\
+\\
+Außer der Nutzung des Barometers, zu der keine Informationen gefunden wurden, ist das Auslesen aller anderer in der Bewertungsmatrix (Abbildung (X)) gelisteten Sensoren mit dem React Native Framework umsetzbar. Sowohl auf die Front- als auch auf die Rückkamera eines Smartphones kann zugegriffen werden. Allerdings ist ein Aufruf der nativen Android-Kameraanwendung nicht in der API des Frameworks integriert, so muss eine Kameraanwendung mit allen Einstellungsmöglichkeiten selbst implementiert werden. Wie schon bei Xamarin und Ionic sind auch mit React Native Kommunikation via Bluetooth und Wifi sowie auch Notifications möglich. 
+
 \section{GUI-Design}
 
 \section{Interoperabilität}
 
-Die Bewertung der einzelnen Frameworks in der Kategorie 'OS-Versionen' ist in nachfolgender Abbildung (X) dargestellt.
+Die Bewertung der einzelnen Frameworks in der Kategorie 'Interoperabilität' ist in nachfolgender Abbildung (X) dargestellt.
 
 \begin{figure}[h]
 	\centering
