@@ -118,11 +118,21 @@ Die Bewertung der einzelnen Frameworks in der Kategorie 'OS-Versionen' ist in na
 	\label{fig:AuswOSVersionen}
 \end{figure}
 
-Zwischen dem Android-Update auf die Version 7.1 am 4.10.2016 und dem Update des Xamarin Frameworks für die Android-Version 7.1 am 19.10.2016 lagen knapp mehr als 2 Wochen.
+Zwischen dem Android-Update auf die Version 7.1 am 4.10.2016 und dem Update des Xamarin Frameworks für die Android-Version 7.1 am 19.10.2016 lagen nur knapp mehr als 2 Wochen.
 \\
-Auf das Android-Update auf die Version 7.1 am 4.10.2016 hat Xamarin gute 2 Wochen später am 19.4.2017 mit einem Update reagiert.
+Mit dem Framework Xamarin kann auf Windows-Systemen ab Windows 7 und auf Apple-Computern ab der Betriebssystem-Version OS X El Capitan (10.11) entwickelt werden. Anwendungen können für die Systeme iOS, Android, Windows Phone, Mac und Windows 10 geschrieben werden. 
 \\
 Zur Abwärtskompatibilität lässt sich sagen, dass mit dem Xamarin Framework für Android-Geräte ab Version 4.0, für Apple-Geräte ab Version iOS6 und für Windows Phone ab Windows Phone 7 entwickelt werden kann. Bei Windows Phone 7-Anwendungen muss allerdings auf die Verwendung von Xamarin.Forms verzichtet werden.
+\\
+\\
+Was die Reaktionszeit auf ein Update der mobilen Betriebssysteme anbelangt, ist bei der Kombination von Ionic und Cordova Cordova der entscheidende Faktor, da API-Zugriffe bei Ionic-Anwendungen hauptsächlich über Cordova-Plugins realisiert werden. Die Reaktionszeit von Apache Cordova war beim letzten Android-Update vom 4.10.2016 nur einen Tag länger als die des Xamarin Frameworks. Cordova wurde am 20.10.2017 für die Android-Version 7.1 geupdatet.
+\\
+Sowohl mit Ionic als auch mit Cordova kann auf den Systemen Windows, Linux und OS X entwickelt werden. Ionic-Anwendungen können für die Betriebssysteme Android, iOS, Windows Phone und Windows 10 geschrieben werden. Cordova-Anwendungen und -Plugins können zudem auch für die Systeme Bada, Blackberry, Firefox OS, Symbian, Tizen, webOS und Ubuntu Touch entwickelt werden. 
+\\
+Was die Abwärtskompatibilität betrifft, so unterstützen Ionic und Cordova Android ab der Version 4.0, iOS ab Version iOS 8, Windows Phone ab Windows Phone 8.1 und Windows ab Windows 8.1. Cordova unterstützt zudem noch Blackberry ab Version 4.6, OS X ab Version 10.9 und Ubuntu ab Version 14.04. 
+\\
+\\
+Bei dem Framework React Native war die Reaktionszeit auf ein Update der mobilen Betriebssysteme betrifft leider nicht aus den Release Notes ablesbar, es konnten keine Angaben gefunden werden. Mit dem React Native Framework kann auf Apple-Computern, Windows-PCs und Linux-Rechnern entwickelt werden. React Native-Anwendungen laufen auf den beiden mobilen Betriebssystemen iOS und Android. Auf einem Android-Gerät muss dabei mindestens Version 4.1 und auf einem Apple-Gerät mindestens Version 8.0 installiert sein. 
 
 \section{Funktionsumfang}
 
@@ -142,8 +152,20 @@ Bei der Kombination der Frameworks Cordova mit Ionic 2 fehlen noch Schnittstelle
 \\
 \\
 Außer der Nutzung des Barometers, zu der keine Informationen gefunden wurden, ist das Auslesen aller anderer in der Bewertungsmatrix (Abbildung (X)) gelisteten Sensoren mit dem React Native Framework umsetzbar. Sowohl auf die Front- als auch auf die Rückkamera eines Smartphones kann zugegriffen werden. Allerdings ist ein Aufruf der nativen Android-Kameraanwendung nicht in der API des Frameworks integriert, so muss eine Kameraanwendung mit allen Einstellungsmöglichkeiten selbst implementiert werden. Wie schon bei Xamarin und Ionic sind auch mit React Native Kommunikation via Bluetooth und Wifi sowie auch Notifications möglich. 
+\clearpage
 
 \section{GUI-Design}
+
+Nachfolgende Abbildung (X) zeigt den Abschnitt 'GUI-Design' der ausgefüllten Bewertungsmatrix.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{Bilder/Auswertung_GUI.PNG}
+	\caption{Bewertungsmatrix Kategorie GUI-Design}
+	\label{fig:AuswGUI}
+\end{figure}
+
+Bei der Entwicklung mit Xamarin bietet die IDE 'Visual Studio' einen GUI-Designer zum Zusammenstellen der Benutzeroberfläche jeder Seite der Anwendung. Allerdings ist die Auswahl der verfügbaren UI-Elemente sehr begrenzt und es stehen zum Beispiel keine Elemente im Android 'Material Design' zur Verfügung. Außerhalb der Nutzung des GUI-Designers können alle nativen Android UI-Elemente mit dem Xamarin-Framework verwendet werden. 'Visual Studio' bietet für das Testen der Anwendung einen eigenen Emulator. Dadurch, dass sämtliche nativen UI-Elemente mit Xamarin nutzbar sind, ist eine 1 zu 1 Umsetzung einer nativen Benutzeroberfläche möglich. 
 
 \section{Interoperabilität}
 
