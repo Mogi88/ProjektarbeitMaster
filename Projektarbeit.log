@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.16)  24 APR 2017 17:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.16)  24 APR 2017 18:55
 entering extended mode
 **./Projektarbeit.tex
 (Projektarbeit.tex
@@ -3875,11 +3875,32 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 216.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 216.
+
+<Bilder/Auswertung_Programmiersprachen.PNG, id=1582, 975.645pt x 32.37094pt>
+File: Bilder/Auswertung_Programmiersprachen.PNG Graphic file (type png)
+
+<use Bilder/Auswertung_Programmiersprachen.PNG>
+Package pdftex.def Info: Bilder/Auswertung_Programmiersprachen.PNG used on inpu
+t line 222.
+(pdftex.def)             Requested size: 448.13095pt x 14.86858pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 218.
+(babel)             in language  on input line 229.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 218.
+(babel)             in language  on input line 229.
+
+<Bilder/Auswertung_Sicherheit.PNG, id=1583, 949.29657pt x 47.42719pt>
+File: Bilder/Auswertung_Sicherheit.PNG Graphic file (type png)
+
+<use Bilder/Auswertung_Sicherheit.PNG>
+Package pdftex.def Info: Bilder/Auswertung_Sicherheit.PNG used on input line 23
+5.
+(pdftex.def)             Requested size: 448.13095pt x 22.38847pt.
 )
+Overfull \hbox (20.98456pt too wide) in paragraph at lines 240--109
+\OT1/jkp/m/n/12 tema-na-ge-ment un-terst[]utzen und Be-rech-ti-gun-gen wie bei 
+na-ti-ven Android-Anwendungen
+ []
+
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 110.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3888,7 +3909,8 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 110.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 110.
- [99]
+[99 <./Bilder/Auswertung_Programmiersprachen.PNG> <./Bilder/Auswertung_Sicherhe
+it.PNG>]
 chapter without number
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 111.
@@ -3980,10 +4002,10 @@ Package logreq Info: Writing requests to 'Projektarbeit.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
  ) 
 Here is how much of TeX's memory you used:
- 20634 strings out of 493634
- 352089 string characters out of 3147013
- 948212 words of memory out of 3000000
- 22930 multiletter control sequences out of 15000+200000
+ 20648 strings out of 493634
+ 352535 string characters out of 3147013
+ 948353 words of memory out of 3000000
+ 22940 multiletter control sequences out of 15000+200000
  61625 words of font info for 144 fonts, out of 3000000 for 9000
  1029 hyphenation exceptions out of 8191
  59i,21n,86p,1945b,3118s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -4000,9 +4022,9 @@ lic/kpfonts/jkpmne.pfb><F:/Programme/MikTex/fonts/type1/public/kpfonts/jkpmsc8a
 e/MikTex/fonts/type1/public/kpfonts/jkpssbne.pfb><F:/Programme/MikTex/fonts/typ
 e1/public/kpfonts/jkpsy.pfb><F:/Programme/MikTex/fonts/type1/public/kpfonts/jkp
 ttmn8a.pfb>
-Output written on Projektarbeit.pdf (101 pages, 7425712 bytes).
+Output written on Projektarbeit.pdf (101 pages, 7441630 bytes).
 PDF statistics:
- 1823 PDF objects out of 2073 (max. 8388607)
- 707 named destinations out of 1000 (max. 500000)
- 898 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1830 PDF objects out of 2073 (max. 8388607)
+ 709 named destinations out of 1000 (max. 500000)
+ 908 words of extra memory for PDF output out of 10000 (max. 10000000)
 
