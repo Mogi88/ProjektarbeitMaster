@@ -1,90 +1,91 @@
-\BOOKMARK [0][-]{chapter.1}{Problematik und L\366sungsans\344tze}{}% 1
-\BOOKMARK [0][-]{chapter.2}{Grundlagen}{}% 2
-\BOOKMARK [1][-]{section.2.1}{Das LG Nexus 5}{chapter.2}% 3
-\BOOKMARK [1][-]{section.2.2}{Android}{chapter.2}% 4
-\BOOKMARK [1][-]{section.2.3}{iOS}{chapter.2}% 5
-\BOOKMARK [1][-]{section.2.4}{Entwicklungsumgebung}{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.5}{Native Anwendungs-Entwicklung}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.6}{Hybride / Cross-Platform Entwicklung}{chapter.2}% 8
-\BOOKMARK [1][-]{section.2.7}{Sensoren und andere Hardware in Smartphones}{chapter.2}% 9
-\BOOKMARK [2][-]{subsection.2.7.1}{Accelerometer und Gyroskop}{section.2.7}% 10
-\BOOKMARK [2][-]{subsection.2.7.2}{GPS}{section.2.7}% 11
-\BOOKMARK [2][-]{subsection.2.7.3}{N\344herungssensor und Umgebungslichtsensor}{section.2.7}% 12
-\BOOKMARK [2][-]{subsection.2.7.4}{Vibration}{section.2.7}% 13
-\BOOKMARK [2][-]{subsection.2.7.5}{Magnetometer}{section.2.7}% 14
-\BOOKMARK [0][-]{chapter.3}{Anforderungsanalyse}{}% 15
-\BOOKMARK [1][-]{section.3.1}{Problemanalyse}{chapter.3}% 16
-\BOOKMARK [1][-]{section.3.2}{Funktionale und nichtfunktionale Anforderungen}{chapter.3}% 17
-\BOOKMARK [2][-]{subsection.3.2.1}{FA: Nutzung von Hardware-Komponenten}{section.3.2}% 18
-\BOOKMARK [2][-]{subsection.3.2.2}{FA: Die grafische Benutzeroberfl\344che}{section.3.2}% 19
-\BOOKMARK [2][-]{subsection.3.2.3}{FA: Betriebssysteme}{section.3.2}% 20
-\BOOKMARK [2][-]{subsection.3.2.4}{FA: Sicherheit}{section.3.2}% 21
-\BOOKMARK [2][-]{subsection.3.2.5}{FA: Interoperabilit\344t/Erweiterbarkeit}{section.3.2}% 22
-\BOOKMARK [2][-]{subsection.3.2.6}{FA: Tests und Performance}{section.3.2}% 23
-\BOOKMARK [2][-]{subsection.3.2.7}{NFA: Hersteller}{section.3.2}% 24
-\BOOKMARK [2][-]{subsection.3.2.8}{NFA: Support und Community}{section.3.2}% 25
-\BOOKMARK [2][-]{subsection.3.2.9}{NFA: Entwicklung}{section.3.2}% 26
-\BOOKMARK [2][-]{subsection.3.2.10}{NFA: Lizenz und Kosten}{section.3.2}% 27
-\BOOKMARK [1][-]{section.3.3}{Abgrenzungskriterien}{chapter.3}% 28
-\BOOKMARK [0][-]{chapter.4}{Marktanalyse}{}% 29
-\BOOKMARK [1][-]{section.4.1}{Xamarin}{chapter.4}% 30
-\BOOKMARK [1][-]{section.4.2}{Cordova}{chapter.4}% 31
-\BOOKMARK [1][-]{section.4.3}{Ionic}{chapter.4}% 32
-\BOOKMARK [1][-]{section.4.4}{React Native}{chapter.4}% 33
-\BOOKMARK [0][-]{chapter.5}{Aufstellen der Bewertungskriterien f\374r die Analyse}{}% 34
-\BOOKMARK [1][-]{section.5.1}{Kategorie Kosten und Lizenz}{chapter.5}% 35
-\BOOKMARK [1][-]{section.5.2}{Kategorie Support und Community}{chapter.5}% 36
-\BOOKMARK [1][-]{section.5.3}{Kategorie Entwicklung}{chapter.5}% 37
-\BOOKMARK [1][-]{section.5.4}{Kategorie Hersteller}{chapter.5}% 38
-\BOOKMARK [1][-]{section.5.5}{Kategorie OS-Versionen}{chapter.5}% 39
-\BOOKMARK [1][-]{section.5.6}{Funktionsumfang}{chapter.5}% 40
-\BOOKMARK [1][-]{section.5.7}{GUI-Design}{chapter.5}% 41
-\BOOKMARK [1][-]{section.5.8}{Interoperabilit\344t und Erweiterbarkeit}{chapter.5}% 42
-\BOOKMARK [1][-]{section.5.9}{Tests}{chapter.5}% 43
-\BOOKMARK [1][-]{section.5.10}{Performance}{chapter.5}% 44
-\BOOKMARK [1][-]{section.5.11}{Sicherheit}{chapter.5}% 45
-\BOOKMARK [0][-]{chapter.6}{Planung der Funktionstest-Anwendung}{}% 46
-\BOOKMARK [1][-]{section.6.1}{GUI Design}{chapter.6}% 47
-\BOOKMARK [1][-]{section.6.2}{Hardwarezugriffe}{chapter.6}% 48
-\BOOKMARK [1][-]{section.6.3}{Speicher}{chapter.6}% 49
-\BOOKMARK [0][-]{chapter.7}{Objektorientierte Analyse und Design}{}% 50
-\BOOKMARK [1][-]{section.7.1}{Dynamisches Modell \(OOA\)}{chapter.7}% 51
-\BOOKMARK [1][-]{section.7.2}{Statisches Modell \(OOA\)}{chapter.7}% 52
-\BOOKMARK [1][-]{section.7.3}{Datenhaltung \(OOD\)}{chapter.7}% 53
-\BOOKMARK [1][-]{section.7.4}{Die grafische Benutzeroberfl\344che}{chapter.7}% 54
-\BOOKMARK [0][-]{chapter.8}{Implementierung}{}% 55
-\BOOKMARK [1][-]{section.8.1}{Native Implementierung}{chapter.8}% 56
-\BOOKMARK [2][-]{subsection.8.1.1}{Grafische Benutzeroberfl\344che}{section.8.1}% 57
-\BOOKMARK [2][-]{subsection.8.1.2}{Sensoren}{section.8.1}% 58
-\BOOKMARK [2][-]{subsection.8.1.3}{Kameras}{section.8.1}% 59
-\BOOKMARK [2][-]{subsection.8.1.4}{Speicherzugriffe}{section.8.1}% 60
-\BOOKMARK [1][-]{section.8.2}{Implementierung mit Xamarin}{chapter.8}% 61
-\BOOKMARK [2][-]{subsection.8.2.1}{Grafische Benutzeroberfl\344che}{section.8.2}% 62
-\BOOKMARK [2][-]{subsection.8.2.2}{Sensoren}{section.8.2}% 63
-\BOOKMARK [2][-]{subsection.8.2.3}{Kameras}{section.8.2}% 64
-\BOOKMARK [2][-]{subsection.8.2.4}{Speicherzugriffe}{section.8.2}% 65
-\BOOKMARK [1][-]{section.8.3}{Implementierung mit Ionic/Cordova}{chapter.8}% 66
-\BOOKMARK [2][-]{subsection.8.3.1}{Grafische Benutzeroberfl\344che}{section.8.3}% 67
-\BOOKMARK [2][-]{subsection.8.3.2}{Sensoren}{section.8.3}% 68
-\BOOKMARK [2][-]{subsection.8.3.3}{Kameras}{section.8.3}% 69
-\BOOKMARK [2][-]{subsection.8.3.4}{Speicherzugriffe}{section.8.3}% 70
-\BOOKMARK [1][-]{section.8.4}{Implementierung mit React Native}{chapter.8}% 71
-\BOOKMARK [2][-]{subsection.8.4.1}{Grafische Benutzeroberfl\344che}{section.8.4}% 72
-\BOOKMARK [2][-]{subsection.8.4.2}{Sensoren}{section.8.4}% 73
-\BOOKMARK [2][-]{subsection.8.4.3}{Kameras}{section.8.4}% 74
-\BOOKMARK [2][-]{subsection.8.4.4}{Speicherzugriffe}{section.8.4}% 75
-\BOOKMARK [0][-]{chapter.9}{Auswertung}{}% 76
-\BOOKMARK [1][-]{section.9.1}{Kosten und Lizenz}{chapter.9}% 77
-\BOOKMARK [1][-]{section.9.2}{Support und Community}{chapter.9}% 78
-\BOOKMARK [1][-]{section.9.3}{Entwicklung}{chapter.9}% 79
-\BOOKMARK [1][-]{section.9.4}{Hersteller}{chapter.9}% 80
-\BOOKMARK [1][-]{section.9.5}{OS-Versionen}{chapter.9}% 81
-\BOOKMARK [1][-]{section.9.6}{Funktionsumfang}{chapter.9}% 82
-\BOOKMARK [1][-]{section.9.7}{GUI-Design}{chapter.9}% 83
-\BOOKMARK [1][-]{section.9.8}{Interoperabilit\344t}{chapter.9}% 84
-\BOOKMARK [1][-]{section.9.9}{Tests}{chapter.9}% 85
-\BOOKMARK [1][-]{section.9.10}{Performance}{chapter.9}% 86
-\BOOKMARK [1][-]{section.9.11}{Programmiersprache}{chapter.9}% 87
-\BOOKMARK [1][-]{section.9.12}{Sicherheit}{chapter.9}% 88
-\BOOKMARK [0][-]{chapter.10}{Fazit}{}% 89
-\BOOKMARK [0][-]{chapter*.2}{Literatur}{}% 90
+\BOOKMARK [0][-]{chapter.1}{Einleitung}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Problematik und L\366sungsans\344tze}{}% 2
+\BOOKMARK [0][-]{chapter.3}{Grundlagen}{}% 3
+\BOOKMARK [1][-]{section.3.1}{Das LG Nexus 5}{chapter.3}% 4
+\BOOKMARK [1][-]{section.3.2}{Android}{chapter.3}% 5
+\BOOKMARK [1][-]{section.3.3}{iOS}{chapter.3}% 6
+\BOOKMARK [1][-]{section.3.4}{Entwicklungsumgebung}{chapter.3}% 7
+\BOOKMARK [1][-]{section.3.5}{Native Anwendungs-Entwicklung}{chapter.3}% 8
+\BOOKMARK [1][-]{section.3.6}{Hybride / Cross-Platform Entwicklung}{chapter.3}% 9
+\BOOKMARK [1][-]{section.3.7}{Sensoren und andere Hardware in Smartphones}{chapter.3}% 10
+\BOOKMARK [2][-]{subsection.3.7.1}{Accelerometer und Gyroskop}{section.3.7}% 11
+\BOOKMARK [2][-]{subsection.3.7.2}{GPS}{section.3.7}% 12
+\BOOKMARK [2][-]{subsection.3.7.3}{N\344herungssensor und Umgebungslichtsensor}{section.3.7}% 13
+\BOOKMARK [2][-]{subsection.3.7.4}{Vibration}{section.3.7}% 14
+\BOOKMARK [2][-]{subsection.3.7.5}{Magnetometer}{section.3.7}% 15
+\BOOKMARK [0][-]{chapter.4}{Anforderungsanalyse}{}% 16
+\BOOKMARK [1][-]{section.4.1}{Problemanalyse}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.2}{Funktionale und nichtfunktionale Anforderungen}{chapter.4}% 18
+\BOOKMARK [2][-]{subsection.4.2.1}{FA: Nutzung von Hardware-Komponenten}{section.4.2}% 19
+\BOOKMARK [2][-]{subsection.4.2.2}{FA: Die grafische Benutzeroberfl\344che}{section.4.2}% 20
+\BOOKMARK [2][-]{subsection.4.2.3}{FA: Betriebssysteme}{section.4.2}% 21
+\BOOKMARK [2][-]{subsection.4.2.4}{FA: Sicherheit}{section.4.2}% 22
+\BOOKMARK [2][-]{subsection.4.2.5}{FA: Interoperabilit\344t/Erweiterbarkeit}{section.4.2}% 23
+\BOOKMARK [2][-]{subsection.4.2.6}{FA: Tests und Performance}{section.4.2}% 24
+\BOOKMARK [2][-]{subsection.4.2.7}{NFA: Hersteller}{section.4.2}% 25
+\BOOKMARK [2][-]{subsection.4.2.8}{NFA: Support und Community}{section.4.2}% 26
+\BOOKMARK [2][-]{subsection.4.2.9}{NFA: Entwicklung}{section.4.2}% 27
+\BOOKMARK [2][-]{subsection.4.2.10}{NFA: Lizenz und Kosten}{section.4.2}% 28
+\BOOKMARK [1][-]{section.4.3}{Abgrenzungskriterien}{chapter.4}% 29
+\BOOKMARK [0][-]{chapter.5}{Marktanalyse}{}% 30
+\BOOKMARK [1][-]{section.5.1}{Xamarin}{chapter.5}% 31
+\BOOKMARK [1][-]{section.5.2}{Cordova}{chapter.5}% 32
+\BOOKMARK [1][-]{section.5.3}{Ionic}{chapter.5}% 33
+\BOOKMARK [1][-]{section.5.4}{React Native}{chapter.5}% 34
+\BOOKMARK [0][-]{chapter.6}{Aufstellen der Bewertungskriterien f\374r die Analyse}{}% 35
+\BOOKMARK [1][-]{section.6.1}{Kategorie Kosten und Lizenz}{chapter.6}% 36
+\BOOKMARK [1][-]{section.6.2}{Kategorie Support und Community}{chapter.6}% 37
+\BOOKMARK [1][-]{section.6.3}{Kategorie Entwicklung}{chapter.6}% 38
+\BOOKMARK [1][-]{section.6.4}{Kategorie Hersteller}{chapter.6}% 39
+\BOOKMARK [1][-]{section.6.5}{Kategorie OS-Versionen}{chapter.6}% 40
+\BOOKMARK [1][-]{section.6.6}{Funktionsumfang}{chapter.6}% 41
+\BOOKMARK [1][-]{section.6.7}{GUI-Design}{chapter.6}% 42
+\BOOKMARK [1][-]{section.6.8}{Interoperabilit\344t und Erweiterbarkeit}{chapter.6}% 43
+\BOOKMARK [1][-]{section.6.9}{Tests}{chapter.6}% 44
+\BOOKMARK [1][-]{section.6.10}{Performance}{chapter.6}% 45
+\BOOKMARK [1][-]{section.6.11}{Sicherheit}{chapter.6}% 46
+\BOOKMARK [0][-]{chapter.7}{Planung der Funktionstest-Anwendung}{}% 47
+\BOOKMARK [1][-]{section.7.1}{GUI Design}{chapter.7}% 48
+\BOOKMARK [1][-]{section.7.2}{Hardwarezugriffe}{chapter.7}% 49
+\BOOKMARK [1][-]{section.7.3}{Speicher}{chapter.7}% 50
+\BOOKMARK [0][-]{chapter.8}{Objektorientierte Analyse und Design}{}% 51
+\BOOKMARK [1][-]{section.8.1}{Dynamisches Modell \(OOA\)}{chapter.8}% 52
+\BOOKMARK [1][-]{section.8.2}{Statisches Modell \(OOA\)}{chapter.8}% 53
+\BOOKMARK [1][-]{section.8.3}{Datenhaltung \(OOD\)}{chapter.8}% 54
+\BOOKMARK [1][-]{section.8.4}{Die grafische Benutzeroberfl\344che}{chapter.8}% 55
+\BOOKMARK [0][-]{chapter.9}{Implementierung}{}% 56
+\BOOKMARK [1][-]{section.9.1}{Native Implementierung}{chapter.9}% 57
+\BOOKMARK [2][-]{subsection.9.1.1}{Grafische Benutzeroberfl\344che}{section.9.1}% 58
+\BOOKMARK [2][-]{subsection.9.1.2}{Sensoren}{section.9.1}% 59
+\BOOKMARK [2][-]{subsection.9.1.3}{Kameras}{section.9.1}% 60
+\BOOKMARK [2][-]{subsection.9.1.4}{Speicherzugriffe}{section.9.1}% 61
+\BOOKMARK [1][-]{section.9.2}{Implementierung mit Xamarin}{chapter.9}% 62
+\BOOKMARK [2][-]{subsection.9.2.1}{Grafische Benutzeroberfl\344che}{section.9.2}% 63
+\BOOKMARK [2][-]{subsection.9.2.2}{Sensoren}{section.9.2}% 64
+\BOOKMARK [2][-]{subsection.9.2.3}{Kameras}{section.9.2}% 65
+\BOOKMARK [2][-]{subsection.9.2.4}{Speicherzugriffe}{section.9.2}% 66
+\BOOKMARK [1][-]{section.9.3}{Implementierung mit Ionic/Cordova}{chapter.9}% 67
+\BOOKMARK [2][-]{subsection.9.3.1}{Grafische Benutzeroberfl\344che}{section.9.3}% 68
+\BOOKMARK [2][-]{subsection.9.3.2}{Sensoren}{section.9.3}% 69
+\BOOKMARK [2][-]{subsection.9.3.3}{Kameras}{section.9.3}% 70
+\BOOKMARK [2][-]{subsection.9.3.4}{Speicherzugriffe}{section.9.3}% 71
+\BOOKMARK [1][-]{section.9.4}{Implementierung mit React Native}{chapter.9}% 72
+\BOOKMARK [2][-]{subsection.9.4.1}{Grafische Benutzeroberfl\344che}{section.9.4}% 73
+\BOOKMARK [2][-]{subsection.9.4.2}{Sensoren}{section.9.4}% 74
+\BOOKMARK [2][-]{subsection.9.4.3}{Kameras}{section.9.4}% 75
+\BOOKMARK [2][-]{subsection.9.4.4}{Speicherzugriffe}{section.9.4}% 76
+\BOOKMARK [0][-]{chapter.10}{Auswertung}{}% 77
+\BOOKMARK [1][-]{section.10.1}{Kosten und Lizenz}{chapter.10}% 78
+\BOOKMARK [1][-]{section.10.2}{Support und Community}{chapter.10}% 79
+\BOOKMARK [1][-]{section.10.3}{Entwicklung}{chapter.10}% 80
+\BOOKMARK [1][-]{section.10.4}{Hersteller}{chapter.10}% 81
+\BOOKMARK [1][-]{section.10.5}{OS-Versionen}{chapter.10}% 82
+\BOOKMARK [1][-]{section.10.6}{Funktionsumfang}{chapter.10}% 83
+\BOOKMARK [1][-]{section.10.7}{GUI-Design}{chapter.10}% 84
+\BOOKMARK [1][-]{section.10.8}{Interoperabilit\344t}{chapter.10}% 85
+\BOOKMARK [1][-]{section.10.9}{Tests}{chapter.10}% 86
+\BOOKMARK [1][-]{section.10.10}{Performance}{chapter.10}% 87
+\BOOKMARK [1][-]{section.10.11}{Programmiersprache}{chapter.10}% 88
+\BOOKMARK [1][-]{section.10.12}{Sicherheit}{chapter.10}% 89
+\BOOKMARK [0][-]{chapter.11}{Fazit}{}% 90
+\BOOKMARK [0][-]{chapter*.2}{Literatur}{}% 91
