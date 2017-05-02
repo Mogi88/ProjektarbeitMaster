@@ -79,7 +79,7 @@ Für die Kamerafunktion musste keine eigene Benutzeroberfläche gestaltet werden
 \\
 Für die Darstellung der Werte des Beschleunigungssensors wurden \textit{LinearLayout}-Objekte in 3 Ebenen verwendet, welche mit \textit{TextView}-Objekten gefüllt sind, über die die Werte dem Benutzer präsentiert werden. Zur allgemeinen Aufteilung der Layout-Elementen lässt sich sagen, dass die globalen Elemente einer Seite, wie die \textit{AppBar} oder der \textit{FloatingActionButton} in der hierarchisch obersten Layout-Datei \textit{activity\_[name].xml} definiert werden.
 
-\subsection*{Sensoren}
+\subsection*{Sensoren} \label{ImplNativSensors}
 
 Da die Zugriffe auf die Sensoren und das Auslesen ihrer Daten äquivalent sind werden diese Vorgänge hier am Beispiel des Näherungssensors erläutert. Damit Die \textit{Activity} auf Sensordaten zugreifen kann, braucht sie ein \textit{SensorManager}-Objekt und ein \textit{Sensor}-Objekt (siehe Listing \ref{lst:SensorInit}).
 
@@ -290,7 +290,7 @@ public void onSensorChanged(SensorEvent event) {
 
 \subsection*{Kameras}
 
-Wie bereits oben erwähnt, wird auch bei der Xamarin-Anwendung die im Android SDK integrierte Kameraanwendung aufgerufen und für das Schießen von Fotos verwendet. Ähnlich wie in der nativen Anwendung wurde auch hier eine Methode \textit{TakeAPicture()} geschrieben, in der die Kameraanwendung als \textit{Intent} aufgerufen wird. Dies ist nachfolgend in Listing (X) dargestellt. Wie auch in der nativen Version wird hier über die Klasse \textit{MediaStore} der Standard \textit{Intent ActionImageCapture} aufgerufen, um die Kameraanwendung von Android zu starten. Der Code der Xamarin-Anwendung ähnelt auch an dieser Stelle sehr dem nativen Code, da direkt die Android API für verschiedene Funktionalitäten (in diesem Fall die Kameraanwendung) angesprochen wird.
+Wie bereits oben erwähnt, wird auch bei der Xamarin-Anwendung die im Android SDK integrierte Kameraanwendung aufgerufen und für das Schießen von Fotos verwendet. Ähnlich wie in der nativen Anwendung wurde auch hier eine Methode \textit{TakeAPicture()} geschrieben, in der die Kameraanwendung als \textit{Intent} aufgerufen wird. Dies ist nachfolgend in Listing \ref{lst:IntentCameraXamarin} dargestellt. Wie auch in der nativen Version wird hier über die Klasse \textit{MediaStore} der Standard \textit{Intent ActionImageCapture} aufgerufen, um die Kameraanwendung von Android zu starten. Der Code der Xamarin-Anwendung ähnelt auch an dieser Stelle sehr dem nativen Code, da direkt die Android API für verschiedene Funktionalitäten (in diesem Fall die Kameraanwendung) angesprochen wird.
 \clearpage 
 
 \begin{lstlisting}[caption=Methode \textit{TakeAPicture()}: Aufruf der Android-Kamerafunktion über einen \textit{Intent} in Xamarin, label=lst:IntentCameraXamarin, language=Java]
@@ -307,7 +307,7 @@ private void TakeAPicture()
 
 \subsection*{Speicherzugriffe}
 
-Auch bei der Nutzung des \textit{External Storage} ist die Umsetzung mit Xamarin sehr ähnlich der nativen Weise. Auch hier wird die Methode \textit{GetExternalFilesDir} aus der Android API für den Zugriff auf den externen Speicher verwendet. Die Berechtigung für die Nutzung des externen Speichers muss dafür zuvor in das \textit{Android Manifest} eingetragen worden sein (siehe Kapitel (X)). Nachfolgendes Listing (X) zeigt die Implementierung der Methode \textit{GetExternalFilesDir} mit dem Xamarin Framework:
+Auch bei der Nutzung des \textit{External Storage} ist die Umsetzung mit Xamarin sehr ähnlich der nativen Weise. Auch hier wird die Methode \textit{GetExternalFilesDir} aus der Android API für den Zugriff auf den externen Speicher verwendet. Die Berechtigung für die Nutzung des externen Speichers muss dafür zuvor in das \textit{Android Manifest} eingetragen worden sein (siehe Kapitel \ref{ImplNativSensors}). Nachfolgendes Listing \ref{lst:SpeicherzugriffXamarin} zeigt die Implementierung der Methode \textit{GetExternalFilesDir} mit dem Xamarin Framework:
 
 \begin{lstlisting}[caption=Methode \textit{GetExternalFilesDir()}: Adressieren des 'External Storage' und Anlegen eines Ordners für die Fotos der Funktionstest-Anwendung, label=lst:SpeicherzugriffXamarin, language=Java]
 private void CreateDirectoryForPictures()
