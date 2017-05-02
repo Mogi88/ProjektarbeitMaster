@@ -8,55 +8,35 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Grundlagen}{12}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Das LG Nexus 5}{12}{section.3.1}
+\contentsline {section}{\numberline {3.1}Android}{12}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Android}{12}{section.3.2}
+\contentsline {section}{\numberline {3.2}iOS}{13}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}iOS}{13}{section.3.3}
+\contentsline {section}{\numberline {3.3}Entwicklungsumgebung}{13}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Entwicklungsumgebung}{13}{section.3.4}
+\contentsline {section}{\numberline {3.4}Native Anwendungs-Entwicklung}{13}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Native Anwendungs-Entwicklung}{14}{section.3.5}
+\contentsline {section}{\numberline {3.5}Hybride / Cross-Platform Entwicklung}{14}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Hybride / Cross-Platform Entwicklung}{14}{section.3.6}
+\contentsline {section}{\numberline {3.6}Sensoren und andere Hardware in Smartphones}{15}{section.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Sensoren und andere Hardware in Smartphones}{15}{section.3.7}
+\contentsline {subsection}{\numberline {3.6.1}Das LG Nexus 5}{15}{subsection.3.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.1}Accelerometer und Gyroskop}{15}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.6.2}Accelerometer und Gyroskop}{16}{subsection.3.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.2}GPS}{16}{subsection.3.7.2}
+\contentsline {subsection}{\numberline {3.6.3}GPS}{16}{subsection.3.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.3}N\IeC {\"a}herungssensor und Umgebungslichtsensor}{17}{subsection.3.7.3}
+\contentsline {subsection}{\numberline {3.6.4}N\IeC {\"a}herungssensor und Umgebungslichtsensor}{17}{subsection.3.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.4}Vibration}{17}{subsection.3.7.4}
+\contentsline {subsection}{\numberline {3.6.5}Vibration}{17}{subsection.3.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.5}Magnetometer}{17}{subsection.3.7.5}
+\contentsline {subsection}{\numberline {3.6.6}Magnetometer}{17}{subsection.3.6.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Anforderungsanalyse}{18}{chapter.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Problemanalyse}{18}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Funktionale und nichtfunktionale Anforderungen}{19}{section.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}FA: Nutzung von Hardware-Komponenten}{19}{subsection.4.2.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}FA: Die grafische Benutzeroberfl\IeC {\"a}che}{20}{subsection.4.2.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}FA: Betriebssysteme}{21}{subsection.4.2.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.4}FA: Sicherheit}{21}{subsection.4.2.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.5}FA: Interoperabilit\IeC {\"a}t/Erweiterbarkeit}{21}{subsection.4.2.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.6}FA: Tests und Performance}{21}{subsection.4.2.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.7}NFA: Hersteller}{22}{subsection.4.2.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.8}NFA: Support und Community}{22}{subsection.4.2.8}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.9}NFA: Entwicklung}{22}{subsection.4.2.9}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.10}NFA: Lizenz und Kosten}{23}{subsection.4.2.10}
+\contentsline {section}{\numberline {4.2}Funktionale und nichtfunktionale Anforderungen}{18}{section.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Abgrenzungskriterien}{23}{section.4.3}
 \defcounter {refsection}{0}\relax 
@@ -70,116 +50,84 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.4}React Native}{31}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Aufstellen der Bewertungskriterien f\IeC {\"u}r die Analyse}{32}{chapter.6}
+\contentsline {chapter}{\numberline {6}Aufstellen der Bewertungskriterien f\IeC {\"u}r die Analyse}{33}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Kategorie Kosten und Lizenz}{33}{section.6.1}
+\contentsline {section}{\numberline {6.1}Kategorie Kosten und Lizenz}{34}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Kategorie Support und Community}{33}{section.6.2}
+\contentsline {section}{\numberline {6.2}Kategorie Support und Community}{34}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Kategorie Entwicklung}{33}{section.6.3}
+\contentsline {section}{\numberline {6.3}Kategorie Entwicklung}{34}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Kategorie Hersteller}{34}{section.6.4}
+\contentsline {section}{\numberline {6.4}Kategorie Hersteller}{35}{section.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Kategorie OS-Versionen}{34}{section.6.5}
+\contentsline {section}{\numberline {6.5}Kategorie OS-Versionen}{35}{section.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.6}Funktionsumfang}{35}{section.6.6}
+\contentsline {section}{\numberline {6.6}Funktionsumfang}{36}{section.6.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.7}GUI-Design}{36}{section.6.7}
+\contentsline {section}{\numberline {6.7}GUI-Design}{37}{section.6.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.8}Interoperabilit\IeC {\"a}t und Erweiterbarkeit}{36}{section.6.8}
+\contentsline {section}{\numberline {6.8}Interoperabilit\IeC {\"a}t und Erweiterbarkeit}{37}{section.6.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.9}Tests}{38}{section.6.9}
+\contentsline {section}{\numberline {6.9}Tests}{39}{section.6.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.10}Performance}{38}{section.6.10}
+\contentsline {section}{\numberline {6.10}Performance}{39}{section.6.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.11}Sicherheit}{38}{section.6.11}
+\contentsline {section}{\numberline {6.11}Sicherheit}{39}{section.6.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Planung der Funktionstest-Anwendung}{39}{chapter.7}
+\contentsline {chapter}{\numberline {7}Planung der Funktionstest-Anwendung}{40}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}GUI Design}{39}{section.7.1}
+\contentsline {section}{\numberline {7.1}GUI Design}{40}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Hardwarezugriffe}{42}{section.7.2}
+\contentsline {section}{\numberline {7.2}Hardwarezugriffe}{43}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Speicher}{43}{section.7.3}
+\contentsline {section}{\numberline {7.3}Speicher}{44}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Objektorientierte Analyse und Design}{45}{chapter.8}
+\contentsline {chapter}{\numberline {8}Objektorientierte Analyse und Design}{46}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Dynamisches Modell (OOA)}{45}{section.8.1}
+\contentsline {section}{\numberline {8.1}Dynamisches Modell (OOA)}{46}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Statisches Modell (OOA)}{47}{section.8.2}
+\contentsline {section}{\numberline {8.2}Statisches Modell (OOA)}{48}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Datenhaltung (OOD)}{49}{section.8.3}
+\contentsline {section}{\numberline {8.3}Datenhaltung (OOD)}{50}{section.8.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}Die grafische Benutzeroberfl\IeC {\"a}che}{49}{section.8.4}
+\contentsline {section}{\numberline {8.4}Die grafische Benutzeroberfl\IeC {\"a}che}{50}{section.8.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Implementierung}{56}{chapter.9}
+\contentsline {chapter}{\numberline {9}Implementierung}{57}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Native Implementierung}{56}{section.9.1}
+\contentsline {section}{\numberline {9.1}Native Implementierung}{57}{section.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.1}Grafische Benutzeroberfl\IeC {\"a}che}{56}{subsection.9.1.1}
+\contentsline {section}{\numberline {9.2}Implementierung mit Xamarin}{64}{section.9.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.2}Sensoren}{59}{subsection.9.1.2}
+\contentsline {section}{\numberline {9.3}Implementierung mit Ionic/Cordova}{69}{section.9.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.3}Kameras}{61}{subsection.9.1.3}
+\contentsline {section}{\numberline {9.4}Implementierung mit React Native}{76}{section.9.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1.4}Speicherzugriffe}{62}{subsection.9.1.4}
+\contentsline {chapter}{\numberline {10}Auswertung}{87}{chapter.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Implementierung mit Xamarin}{63}{section.9.2}
+\contentsline {section}{\numberline {10.1}Kosten und Lizenz}{87}{section.10.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.1}Grafische Benutzeroberfl\IeC {\"a}che}{63}{subsection.9.2.1}
+\contentsline {section}{\numberline {10.2}Support und Community}{88}{section.10.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.2}Sensoren}{66}{subsection.9.2.2}
+\contentsline {section}{\numberline {10.3}Entwicklung}{90}{section.10.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.3}Kameras}{67}{subsection.9.2.3}
+\contentsline {section}{\numberline {10.4}Hersteller}{94}{section.10.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.4}Speicherzugriffe}{68}{subsection.9.2.4}
+\contentsline {section}{\numberline {10.5}OS-Versionen}{95}{section.10.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Implementierung mit Ionic/Cordova}{68}{section.9.3}
+\contentsline {section}{\numberline {10.6}Funktionsumfang}{96}{section.10.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.3.1}Grafische Benutzeroberfl\IeC {\"a}che}{69}{subsection.9.3.1}
+\contentsline {section}{\numberline {10.7}GUI-Design}{98}{section.10.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.3.2}Sensoren}{72}{subsection.9.3.2}
+\contentsline {section}{\numberline {10.8}Interoperabilit\IeC {\"a}t}{99}{section.10.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.3.3}Kameras}{73}{subsection.9.3.3}
+\contentsline {section}{\numberline {10.9}Tests}{100}{section.10.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.3.4}Speicherzugriffe}{74}{subsection.9.3.4}
+\contentsline {section}{\numberline {10.10}Performance}{101}{section.10.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.4}Implementierung mit React Native}{75}{section.9.4}
+\contentsline {section}{\numberline {10.11}Programmiersprache}{101}{section.10.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.4.1}Grafische Benutzeroberfl\IeC {\"a}che}{75}{subsection.9.4.1}
+\contentsline {section}{\numberline {10.12}Sicherheit}{101}{section.10.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.4.2}Sensoren}{79}{subsection.9.4.2}
+\contentsline {chapter}{\numberline {11}Fazit}{103}{chapter.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.4.3}Kameras}{80}{subsection.9.4.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.4.4}Speicherzugriffe}{84}{subsection.9.4.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Auswertung}{86}{chapter.10}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.1}Kosten und Lizenz}{86}{section.10.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.2}Support und Community}{87}{section.10.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.3}Entwicklung}{89}{section.10.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.4}Hersteller}{93}{section.10.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.5}OS-Versionen}{94}{section.10.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.6}Funktionsumfang}{95}{section.10.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.7}GUI-Design}{97}{section.10.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.8}Interoperabilit\IeC {\"a}t}{98}{section.10.8}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.9}Tests}{99}{section.10.9}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.10}Performance}{100}{section.10.10}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.11}Programmiersprache}{100}{section.10.11}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.12}Sicherheit}{100}{section.10.12}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Fazit}{102}{chapter.11}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Literatur}{105}{chapter*.2}
+\contentsline {chapter}{\nonumberline Literatur}{106}{chapter*.28}

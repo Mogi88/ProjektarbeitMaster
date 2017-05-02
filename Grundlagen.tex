@@ -2,11 +2,7 @@
 
 Zunächst werden für ein besseres Verständnis der Arbeit die eingesetzten Materialien und Grundlagen vorgestellt. Zu diesen zählen diverse Hardware, wie das verwendete Smartphone, aber auch Software wie unter anderem die Entwicklungsumgebung oder das verwendete SDK (Software Development Kit) für die native Evaluationsanwendung. Zudem wird eine Einführung in die Begrifflichkeiten wie native und hybride Anwendungsentwicklung gegeben.
 
-\section{Das LG Nexus 5}
-
-Für die Evaluation anhand einer zu entwickelnden Anwendung, welche unter anderem Hardware-Zugriffe auf Sensorik etc. testen soll, steht ein LG Nexus 5 als Gerät zur Verfügung. Das LG Nexus 5 erschien am 31. Oktober 2013 mit der Android-Version 4.4 KitKat. Es verfügt über ein Full HD IPS Display mit einer Bildschirmdiagonalen von 12,70 cm. Die Auflösung beträgt 1920 x 1080 Pixel. Das Smartphone besitzt eine 8 MP Kamera hinten und eine 1,3 MP Front-Kamera. Als Prozessor ist ein Qualcomm Snapdragon 800 mit einer Taktrate von 2,26GHz und 4 Kernen verbaut. Zudem ist das LG Nexus 5 mit folgenden Sensoren ausgestattet: Accelerometer, Gyroskop, Näherungssensor, Magnetometer und Barometer. 
-
-\section{Android}
+\section{Android} \label{AndroidPlattform}
 
 Android \footcite{Android} ist ein Betriebssystem für mobile Geräte wie Smartphones oder Tablets, ursprünglich entwickelt von der Firma Android, Inc., welche 2005 von Google aufgekauft wurde \footcite{AndroidHistory}. Mobile Anwendungen für Android Systeme werden in der Programmiersprache Java geschrieben und anschließend in Androids eigenes Format DEX (Dalvik Executable Format) konvertiert \footcite{AndroidCookbook}. Die Android UI Guidelines \footcite{AndroidGuidelines} geben Richtlinien für das Design der Benutzeroberfläche von Android Anwendungen vor.
 \\
@@ -30,7 +26,8 @@ Eine native Anwendung ist eine Anwendung, die für eine spezifische Plattform en
 
 \section{Hybride / Cross-Platform Entwicklung}
 
-Eine hybride Anwendung ist prinzipiell wie eine Web Anwendung, nur mit einem leichtgewichtigen nativen Container, welcher es erlaubt, auf native plattformspezifische Funktionalitäten und Hardware zuzugreifen. Wie auch Web Anwendungen werden hybride Anwendungen oft in Skript-Sprachen wie JavaScript, HTML5 und CSS programmiert\footcite{Varianten}. Auf diese Weise entsteht Code, der gemeinsam auf allen Plattformen genutzt werden kann. Dies hat den Vorteil, dass nur eine Anwendung gewartet werden muss und nicht eine pro Plattform, für die die Anwendung herausgegeben werden soll. Als ein Nachteil wird allerdings die Performance genannt, welche unter Umständen, wie zum Beispiel einer erhöhten Nutzung von Hardware-Komponenten, deutlich schlechter als bei der nativen Variante sein soll\footcite{Varianten}. Nachfolgende Abbildung\ref{fig:VariantenAppEntwicklung} beschreibt noch einmal bildhaft den Unterschied zwischen den drei Entwicklungsvarianten: Nativ, Hybrid und Web: 
+Eine hybride Anwendung ist prinzipiell wie eine Web Anwendung, nur mit einem leichtgewichtigen nativen Container, welcher es erlaubt, auf native plattformspezifische Funktionalitäten und Hardware zuzugreifen. Wie auch Web Anwendungen werden hybride Anwendungen oft in Skript-Sprachen wie JavaScript, HTML5 und CSS programmiert\footcite{Varianten}. Auf diese Weise entsteht Code, der gemeinsam auf allen Plattformen genutzt werden kann. Dies hat den Vorteil, dass nur eine Anwendung gewartet werden muss und nicht eine pro Plattform, für die die Anwendung herausgegeben werden soll. Als ein Nachteil wird allerdings die Performance genannt, welche unter Umständen, wie zum Beispiel einer erhöhten Nutzung von Hardware-Komponenten, deutlich schlechter als bei der nativen Variante sein soll\footcite{Varianten}. Nachfolgende Abbildung  \ref{fig:VariantenAppEntwicklung} beschreibt noch einmal bildhaft den Unterschied zwischen den drei Entwicklungsvarianten: Nativ, Hybrid und Web: 
+\clearpage
 
 \begin{figure}[h]
 	\centering
@@ -41,11 +38,15 @@ Eine hybride Anwendung ist prinzipiell wie eine Web Anwendung, nur mit einem lei
 
 \section{Sensoren und andere Hardware in Smartphones}
 
-Im folgenden werden die gängigen Sensoren, welche in Smartphones eingebaut sind vorgestellt. Diese Sensoren werden in Anwendungen verwendet, um zum Beispiel die aktuelle Position zu bestimmen oder Feedback in Form von Vibrationen zu geben. 
+Im folgenden wird die verwendete Hardware, sowie die gängigen Sensoren, welche in Smartphones eingebaut sind vorgestellt. Diese Sensoren werden in Anwendungen verwendet, um zum Beispiel die aktuelle Position zu bestimmen oder Feedback in Form von Vibrationen zu geben. 
 
-\subsection{Accelerometer und Gyroskop}
+\subsection{Das LG Nexus 5}
 
-Das Accelerometer, oder auch der Beschleunigungssensor, misst die Beschleunigung in X-, Y- und Z-Achsenrichtung. Unter Beschleunigung wird die Änderung der Geschwindigkeit zur Zeit verstanden. Im physikalischen Sinne ist jede Form von Änderung einer Bewegung, auch eine Abnahme der Geschwindigkeit oder Schwenken in eine andere Richtung, eine Beschleunigung. Das Gyroskop misst hingegen die rotatorische Geschwindigkeit, also Drehbewegungen. Zusammen mit dem Accelerometer erkennt das Smartphone so Bewegungsänderungen und kann darauf reagieren\footcite{AndroidWiki}. Die Ausrichtung der 3 Achsen von einem Smartphone ist in folgender Abbildung\ref{fig:Achsenausrichtung} dargestellt:
+Für die Evaluation anhand einer zu entwickelnden Anwendung, welche unter anderem Hardware-Zugriffe auf Sensorik etc. testen soll, steht ein LG Nexus 5 als Gerät zur Verfügung. Das LG Nexus 5 erschien am 31. Oktober 2013 mit der Android-Version 4.4 KitKat. Es verfügt über ein Full HD IPS Display mit einer Bildschirmdiagonalen von 12,70 cm. Die Auflösung beträgt 1920 x 1080 Pixel. Das Smartphone besitzt eine 8 MP Kamera hinten und eine 1,3 MP Front-Kamera. Als Prozessor ist ein Qualcomm Snapdragon 800 mit einer Taktrate von 2,26GHz und 4 Kernen verbaut. Zudem ist das LG Nexus 5 mit folgenden Sensoren ausgestattet: Accelerometer, Gyroskop, Näherungssensor, Magnetometer und Barometer\footcite{Nexus5}. 
+
+\subsection{Accelerometer und Gyroskop} \label{GrundlagenAccGyro}
+
+Das Accelerometer, oder auch der Beschleunigungssensor, misst die Beschleunigung in X-, Y- und Z-Achsenrichtung. Unter Beschleunigung wird die Änderung der Geschwindigkeit zur Zeit verstanden. Im physikalischen Sinne ist jede Form von Änderung einer Bewegung, auch eine Abnahme der Geschwindigkeit oder Schwenken in eine andere Richtung, eine Beschleunigung. Das Gyroskop misst hingegen die rotatorische Geschwindigkeit, also Drehbewegungen. Zusammen mit dem Accelerometer erkennt das Smartphone so Bewegungsänderungen und kann darauf reagieren\footcite{AndroidWiki}. Die Ausrichtung der 3 Achsen von einem Smartphone ist in folgender Abbildung \ref{fig:Achsenausrichtung} dargestellt:
 
 \begin{figure}[h]
 	\centering

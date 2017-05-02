@@ -1,9 +1,9 @@
-\chapter{Marktanalyse}
+\chapter{Marktanalyse} \label{Marktanalyse}
 
-Wie schon in der Anforderungsanalyse (Kapitel (X)) beschrieben, werden 3 Frameworks für hybride, bzw. Cross-Platform-Anwendungsentwicklung ausgewählt, um diese mit einer Funktionstest-Anwendung zu evaluieren.
+Wie schon in der Anforderungsanalyse (Kapitel \ref{Anforderungsanalyse}) beschrieben, werden die 3 aktuell relevantesten Frameworks für hybride, bzw. Cross-Platform-Anwendungsentwicklung ausgewählt, um diese mit einer Funktionstest-Anwendung zu evaluieren.
 \\
 \\
-Bevor eine allgemeine Liste aktuell verfügbarer Frameworks aufgestellt wurde, wurden folgende Kriterien festgelegt, welche auf jeden Fall von den Frameworks erfüllt werden müssen, um bei dieser Evaluation Berücksichtigung zu finden: Die Frameworks müssen mehr als eine Plattform bedienen, und 2 dieser Plattformen müssen Android und iOS sein, da diese den größten Marktanteil besitzen. Wobei Android einen durchschnittlichen Marktanteil von ca. 75\% und iOS von ca. 18\% über die vergangenen 4 Jahre besaß\footcite{Statista}.
+Bevor eine allgemeine Liste aktuell verfügbarer Frameworks aufgestellt wurde, wurden folgende Kriterien festgelegt, welche auf jeden Fall von den Frameworks erfüllt werden müssen, um bei dieser Evaluation Berücksichtigung zu finden: Die Frameworks müssen mehr als eine Plattform bedienen, und 2 dieser Plattformen müssen Android und iOS sein, da diese den größten Marktanteil besitzen (siehe Kapitel \ref{Einleitung}). Wobei Android einen durchschnittlichen Marktanteil von ca. 75\% und iOS von ca. 18\% über die vergangenen 4 Jahre besaß\footcite{Statista}.
 Folgende Frameworks konnten nach oben genannten Kriterien ausfindig gemacht werden:
 \\
 \begin{itemize}
@@ -38,7 +38,7 @@ Um die 3 aktuell relevantesten Frameworks zu ermitteln, wurden folgende Medien g
 \end{figure}
 
 \clearpage
-Zusätzlich wurden mit Hilfe von Google Trends\footcite{GoogleTrends} die Popularität der einzelnen Frameworks im Zeitverlauf visualisiert, um zu verdeutlichen welche Frameworks in letzter Zeit an Interresierten dazugewonnen haben. Die Ergebnisse werden bei Google Trends in Relation zum totalen Suchaufkommen gesetzt. Die Trends sind für einzelne Regionen sowie für die ganze Welt verfügbar. In diesem Fall wurden die weltweiten Trends für die Frameworks ausgewertet. Da sich nur 5 Suchbegriffe gleichzeitig in einem Graphen gegenüberstellen lassen, wurden immer 4 Frameworks "Corona", welches in der vorherigen Untersuchung mit dem Keyword Planer\footcite{KeyWordPlaner} die meisten monatlichen Suchanfragen aufwies, als Referenz gegenübergestellt. Da einige Frameworks Namen haben, die auch in völlig anderen Zusammenhängen gesucht werden können, wie zum Beispiel "Marmalade", wurde als Suchkategorie "Computer und Elektronik" ausgewählt.
+Zusätzlich wurden mit Hilfe von Google Trends\footcite{GoogleTrends} die Popularität der einzelnen Frameworks im Zeitverlauf visualisiert, um zu verdeutlichen welche Frameworks in letzter Zeit an Interresierten dazugewonnen haben. Die Ergebnisse werden bei Google Trends in Relation zum totalen Suchaufkommen gesetzt. Die Trends sind für einzelne Regionen sowie für die ganze Welt verfügbar. In diesem Fall wurden die weltweiten Trends für die Frameworks ausgewertet. Da sich nur 5 Suchbegriffe gleichzeitig in einem Graphen gegenüberstellen lassen, wurden immer 4 Frameworks 'Corona', welches in der vorherigen Untersuchung mit dem Keyword Planer\footcite{KeyWordPlaner} die meisten monatlichen Suchanfragen aufwies, als Referenz gegenübergestellt. Da einige Frameworks Namen haben, die auch in völlig anderen Zusammenhängen gesucht werden können, wie zum Beispiel 'Marmalade', wurde als Suchkategorie 'Computer und Elektronik' ausgewählt.
 \\
 \\
 \begin{figure}[h]
@@ -80,14 +80,14 @@ Aus oben beschriebenen und dargestellten Auswertungen ergeben sich zunächst fol
 \item PhoneGap
 \item Ionic
 \end{itemize}
-Nach weiteren Recherchen über diese 5 Frameworks stellte sich allerdings heraus, dass es sich bei Cordova um eine Weiterentwicklung des Frameworks PhoneGap handelt. Dies schlägt sich auch in den Google Trends nieder, wie man in Abbildung \ref{fig:Trends3} erkennen kann. Aus diesem Grund wird ausschließlich Cordova evaluiert, der Vorgänger PhoneGap bleibt außen vor. Für die Liste der 5 Frameworks, welche praktisch evaluiert werden, ergibt sich daraus, dass an die Stelle von PhoneGap nun "React Native" tritt. 
+Aufgrund der vergleichsweise sehr geringen Repräsentation des Frameworks Corona auf GitHub (ca. 2000 Repositories im Vergleich zu um die ca. 30.000 Einträge zu Ionic oder React Native) wird dieses von den oben aufgelisteten Frameworks hintenangestellt\footcite{GitHubTrending}. Nach weiteren Recherchen über diese 5 Frameworks stellte sich noch heraus, dass es sich bei Cordova um eine Weiterentwicklung des Frameworks PhoneGap handelt. Dies schlägt sich auch in den Google Trends nieder, wie man in Abbildung \ref{fig:Trends3} erkennen kann. Aus diesem Grund wird ausschließlich Cordova evaluiert, der Vorgänger PhoneGap bleibt außen vor. Für die Liste der zu evaluierenden Frameworks ergibt sich daraus, dass an die Stelle von PhoneGap nun 'React Native' tritt. 
 \\
 \\
 Das Framework Cordova bietet keine Mittel für die Realisierung einer grafischen Benutzeroberfläche und für das Framework Ionic ist für sämtliche Hardware-Nutzung das Einbinden von Cordova-Plugins notwendig. Aus diesen Gründen werden diese beiden Frameworks in dieser Arbeit kombiniert betrachtet, als 2 Bausteine eines Frameworks sozusagen. So ergeben sich für die Evaluation in dieser Arbeit die Frameworks Xamarin, React Native und Cordova mit Ionic. Diese Frameworks werden nachfolgend etwas näher vorgestellt. 
 
-\section{Xamarin}
+\section{Xamarin} \label{chpXamarin}
 
-Das Xamarin Framework verspricht native Anwendungen für Windows Phone, iOS und Android entwickeln zu können basierend auf einer C\# Codebase. Konkret gesprochen verspricht es eine native UI, nativen API Zugang und native Performance Xamarin kommt mit der eigenen IDE 'Xamarin Studio', es ist allerdings auch möglich Xamarin Anwendungen mit der IDE 'Visual Studio' zu entwickeln. Die Benutzeroberfläche muss bei Xamarin Anwendungen allerdings für jede Plattform separat implementiert werden(Zeitschrift(X)). 
+Das Xamarin Framework verspricht native Anwendungen für Windows Phone, iOS und Android entwickeln zu können basierend auf einer C\# Codebase. Konkret gesprochen verspricht es eine native UI, nativen API Zugang und native Performance Xamarin kommt mit der eigenen IDE 'Xamarin Studio', es ist allerdings auch möglich Xamarin Anwendungen mit der IDE 'Visual Studio' zu entwickeln. Die Benutzeroberfläche muss bei Xamarin Anwendungen allerdings für jede Plattform separat implementiert werden\footcite{EinerFuerAlles}. 
 
 \section{Cordova} \label{chpCordova}
 
@@ -95,8 +95,8 @@ Cordova von Apache ist ein Open Source Framework für Cross-Platform mobile Anwe
 
 \section{Ionic}
 
-Das Ionic Framework basiert auf AngularJS, was wiederum ein clientseitiges JavaScript-Webframework ist\footcite{AngularJS}. Entsprechend werden Ionic Anwendungen ebenfalls in JavaScript, HTML5 und CSS3 geschrieben. Auf diese Weise wird bei diesem Framework die gemeinsame Code-Basis geschaffen. Ionic bietet eine nativ wirkende GUI, für Hardware-Anbindungen, wie zum Beispiel das Nutzen von Sensoren, müssen allerdings Cordova (\ref{chpCordova}) PlugIns genutzt werden\footcite{Ionic}. 
+Das Ionic Framework basiert auf AngularJS, was wiederum ein clientseitiges JavaScript-Webframework ist\footcite{AngularJS}. Entsprechend werden Ionic Anwendungen ebenfalls in JavaScript, HTML5 und CSS3 geschrieben. Auf diese Weise wird bei diesem Framework die gemeinsame Code-Basis geschaffen. Ionic bietet eine nativ wirkende GUI, für Hardware-Anbindungen, wie zum Beispiel das Nutzen von Sensoren, müssen allerdings Cordova (Kapitel  \ref{chpCordova}) PlugIns genutzt werden\footcite{Ionic}. 
 
 \section{React Native}
 
-React Native nutzt die Bibliothek React von Facebook zur Entwicklung für die Plattformen Android, iOS und die Universal Windows Platform. Programmiert werden React Native Anwendungen in JavaScript und HTML. Der Code wird anschließend in native Quelldateien übersetzt, weswegen React Native verspricht native Komponenten ohne großen Aufwand einbinden zu können und flüssige Animationen zu ermöglichen(Zeitschrift(X)).
+React Native nutzt die Bibliothek React von Facebook zur Entwicklung für die Plattformen Android, iOS und die Universal Windows Platform. Programmiert werden React Native Anwendungen in JavaScript und HTML. Der Code wird anschließend in native Quelldateien übersetzt, weshalb React Native verspricht native Komponenten ohne großen Aufwand einbinden zu können und flüssige Animationen zu ermöglichen\footcite{EinerFuerAlles}.
