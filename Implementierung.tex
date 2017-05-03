@@ -1,6 +1,6 @@
 \chapter{Implementierung}
 
-In diesem Kapitel werden die Implementierungen der Funktionstest-Anwendung gemäß der in Kapitel \ref{OOAOOD} erarbeiteten Analyse und Entwurf vorgestellt. Die Anwendung wird insgesamt 4 Mal implementiert: einmal nativ als Referenz und anschließend mit den in Kapitel \ref{Marktanalyse}  vorgestellten 3 Frameworks. Das Hauptaugenmerk liegt hierbei auf den Bereichen, die der Anwendung ein natives Look-And-Feel verleihen sollen. Dies sind entsprechend die Umsetzung der in Kapitel \ref{OOAOODGUI} vorgestellten grafischen Benutzeroberfläche und die Umsetzung der Hardware-Zugriffe für die Nutzung der Sensoren, Kameras und Speicher. So ergeben sich für jede Implementierung 4 Bereiche.
+In diesem Kapitel werden die Implementierungen der Funktionstest-Anwendung ge-mäß der in Kapitel \ref{OOAOOD} erarbeiteten Analyse und Entwurf vorgestellt. Die Anwendung wird insgesamt 4 Mal implementiert: einmal nativ als Referenz und anschließend mit den in Kapitel \ref{Marktanalyse}  vorgestellten 3 Frameworks. Das Hauptaugenmerk liegt hierbei auf den Bereichen, die der Anwendung ein natives Look-And-Feel verleihen sollen. Dies sind entsprechend die Umsetzung der in Kapitel \ref{OOAOODGUI} vorgestellten grafischen Benutzeroberfläche und die Umsetzung der Hardware-Zugriffe für die Nutzung der Sensoren, Kameras und Speicher. So ergeben sich für jede Implementierung 4 Bereiche. Die in Kapitel \ref{OOAOOD} vorgestellten Funktionen der Testanwendung wurden allerdings nicht alle umgesetzt, da auf Mehrfachumsetzung diverser Funktionalitäten, wie zum Beispiel das Laden von Dateien, verzichtet wurde. Solche Mehrfachumsetzungen hätten für die Evaluation keinen Mehrwert ergeben. 
 
 \section{Native Implementierung}
 
@@ -330,7 +330,7 @@ Für die Entwicklung mit dem Ionic und Cordova Framework auf einem Windows PC mu
 Die Dateistruktur einer Ionic-Anwendung unterscheidet sich sehr stark von einer nativen Android-Anwendung. Dies ist allein schon dadurch bedingt, dass eine Ionic-Anwendung nicht mit einer objektorientierten Programmiersprache, sondern mit der Skriptsprache JavaScript, beziehungsweise TypeScript entwickelt wird.     
 \\
 \\
-Ionic unterstützt verschiedenste UI-Elemente von iOS, Android und Windows, die je nachdem für welche Plattform die Anwendung gebaut wird, automatisch angepasst werden. Das Layout mit seinen einzelnen Elementen wird pro Seite der Anwendung in einer zugehörigen HTML-Datei deklariert. Das Menü mit seinen einzelnen Elementen, in diesem Fall Seiten, wird in der Datei \textit{app.component.ts} deklariert. Diese Datei liegt unter dem Root-Verzeichnis der Anwendung unter src/app/app.component.ts. Hier wird nicht das Design des Menüs festgelegt, sondern nur sein Inhalt mit seinen Bezeichnern. Hierzu müssen die einzelnen Seiten, zu denen man navigieren können soll, importiert werden (siehe Listing (X)). 
+Ionic unterstützt verschiedenste UI-Elemente von iOS, Android und Windows, die je nachdem für welche Plattform die Anwendung gebaut wird, automatisch angepasst werden. Das Layout mit seinen einzelnen Elementen wird pro Seite der Anwendung in einer zugehörigen HTML-Datei deklariert. Das Menü mit seinen einzelnen Elementen, in diesem Fall Seiten, wird in der Datei \textit{app.component.ts} deklariert. Diese Datei liegt unter dem Root-Verzeichnis der Anwendung unter src/app/app.component.ts. Hier wird nicht das Design des Menüs festgelegt, sondern nur sein Inhalt mit seinen Bezeichnern. Hierzu müssen die einzelnen Seiten, zu denen man navigieren können soll, importiert werden (siehe Listing \ref{lst:app.component.tsImports}). 
 
 \begin{lstlisting}[caption=Import der einzelnen Seiten für die Navigation in der Datei \textit{app.component.ts}, label=lst:app.component.tsImports, language=Java]
 import { Page1 } from '../pages/page1/page1';
@@ -341,7 +341,7 @@ import { Page5 } from '../pages/page5/page5';
 import { Page_main } from '../pages/page_main/page_main';
 \end{lstlisting} 
 
-Anschließend werden in dieser Datei noch die Startseite der Anwendung und die Bezeichnungen der Seiten, zu denen man navigieren können soll, gesetzt. Das Benennen der Bezeichnungen und die Zuordnung derer zu den einzelnen Seiten geschieht im Konstruktor (siehe Listing (X)).
+Anschließend werden in dieser Datei noch die Startseite der Anwendung und die Bezeichnungen der Seiten, zu denen man navigieren können soll, gesetzt. Das Benennen der Bezeichnungen und die Zuordnung derer zu den einzelnen Seiten geschieht im Konstruktor (siehe Listing \ref{lst:Navigationsbezeichnungen}).
 
 \begin{lstlisting}[caption=Setzen der Bezeichnungen der einzelnen Seiten für die Navigation, label=lst:Navigationsbezeichnungen, language=Java]
 constructor(public platform: Platform) {
@@ -358,7 +358,7 @@ constructor(public platform: Platform) {
   }
 \end{lstlisting} 
 
-Das Äquivalent zum \textit{NavigationDrawer} aus Android ist das \textit{Side Menu}. In der Datei \textit{app.html}, welche neben der Datei \textit{app.component.ts} ebenfalls im ordner \textit{src} liegt, wird dieses deklariert. eine Toolbar ist hierbei auch mit integriert. Diese bietet unter anderem den Hamburger-Button, über den sich das \textit{Side Menu} nebst Swipe öffnen lässt. Wird eine Seite ausgewählt, schließt sich das Menü und die neue Seite wird über die in der Datei \textit{app.component.ts} implementierte Methode \textit{openPage()} geöffnet (siehe Listing (X)).
+Das Äquivalent zum \textit{NavigationDrawer} aus Android ist das \textit{Side Menu}. In der Datei \textit{app.html}, welche neben der Datei \textit{app.component.ts} ebenfalls im ordner \textit{src} liegt, wird dieses deklariert. eine Toolbar ist hierbei auch mit integriert. Diese bietet unter anderem den Hamburger-Button, über den sich das \textit{Side Menu} nebst Swipe öffnen lässt. Wird eine Seite ausgewählt, schließt sich das Menü und die neue Seite wird über die in der Datei \textit{app.component.ts} implementierte Methode \textit{openPage()} geöffnet (siehe Listing \ref{lst:DeklarationSideMenu}).
 
 \begin{lstlisting}[caption=Deklaration des \textit{Side Menus} in der Datei \textit{app.html}, label=lst:DeklarationSideMenu, language=html]
 <ion-menu [content]="content">
@@ -379,16 +379,16 @@ Das Äquivalent zum \textit{NavigationDrawer} aus Android ist das \textit{Side M
 </ion-menu>
 \end{lstlisting}
 
-Nachfolgende Abbildung (X) zeigt das Menü in der Ionic 2 Anwendung. Man kann es wie in der nativen Android Anwendung über Wischen öffnen und schließen. Im Gegensatz zum nativen \textit{NavigationDrawer} und dem von Xamarin, hat das Menü in Ionic nur einen kleinen integrierten Header, der in diesem Fall mit 'Menü' beschriftet ist. 
+Nachfolgende Abbildung \ref{fig:MenuIonic} zeigt das Menü in der Ionic 2 Anwendung. Man kann es wie in der nativen Android Anwendung über Wischen öffnen und schließen. Im Gegensatz zum nativen \textit{NavigationDrawer} und dem von Xamarin, hat das Menü in Ionic nur einen kleinen integrierten Header, der in diesem Fall mit 'Menü' beschriftet ist. 
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.4\textwidth]{Bilder/Screenshot_20170328-165235.PNG}
 	\caption{Menü in der Ionic 2 Anwendung}
-	\label{fig:MenuXamarin}
+	\label{fig:MenuIonic}
 \end{figure} 
 
-In den HTML-Dateien der einzelnen Seiten, in denen deren Layout definiert wird, muss nur noch seitenspezifisches Design implementiert werden, das Menü wird hier nicht weiter bearbeitet. Das Ionic Framework bietet hier auch direkt die Möglichkeit einen \textit{FloatingActionButton} zu benutzen, was dem nativen GUI-Design entgegenkommt (siehe Listing (X)).
+In den HTML-Dateien der einzelnen Seiten, in denen deren Layout definiert wird, muss nur noch seitenspezifisches Design implementiert werden, das Menü wird hier nicht weiter bearbeitet. Das Ionic Framework bietet hier auch direkt die Möglichkeit einen \textit{FloatingActionButton} zu benutzen, was dem nativen GUI-Design entgegenkommt (siehe Listing \ref{lst:FloatingActionButtonIonic}).
 
 \begin{lstlisting}[caption=Deklaration eines \textit{FloatingActionButton}, label=lst:FloatingActionButtonIonic, language=html]
 <ion-fab right bottom>
@@ -396,27 +396,27 @@ In den HTML-Dateien der einzelnen Seiten, in denen deren Layout definiert wird, 
   </ion-fab>
 \end{lstlisting}
 
-Im Gegensatz zur nativen Android Entwicklung müssen UI-Elemente, die in der Layout-Datei, hier in einer HTML-Datei, deklariert wurden, nicht mehr im Konstruktor der zugehörigen Source-Datei initialisiert werden. Bei Buttons, die durch Klicken eine Aktion ausführen sollen, wird die auszuführende Methode in der HTML-Datei dem Button zugewiesen, wie oben in Listing (X) zu erkennen ist. 
+Im Gegensatz zur nativen Android Entwicklung müssen UI-Elemente, die in der Layout-Datei, hier in einer HTML-Datei, deklariert wurden, nicht mehr im Konstruktor der zugehörigen Source-Datei initialisiert werden. Bei Buttons, die durch Klicken eine Aktion ausführen sollen, wird die auszuführende Methode in der HTML-Datei dem Button zugewiesen, wie oben in Listing \ref{lst:FloatingActionButtonIonic} zu erkennen ist. 
 
 \subsection*{Sensoren}
 
 Ionic 2 bringt ein \textit{native} Paket mit sich, in dem Klassen definiert sind, welche Cordova-Plugins kapseln und so in TypeScript genutzt werden können. Es existieren bisher nicht für alle Sensoren kapselnde Klassen, sondern nur für den Beschleunigungssensor, das Magnetometer und GPS. Möchte man andere Sensoren nutzen, so ist man darauf angewiesen, ein den Anforderungen entsprechenden Cordova-Plugin zu finden oder ein eben solches selber zu schreiben. Bei der Einbindung und Nutzung eines solchen Cordova-Plugins ist man allerdings wieder dazu gezwungen JavaScript zu nutzen. Dies wird in dieser Arbeit nicht umgesetzt, sondern es wird sich auf das beschränkt, was das Ionic 2 Framework direkt mitliefert.
 \\
 \\
-Um beispielsweise mit Ionic 2 auf das Magnetometer zugreifen zu können, muss zunächst ein bestimmtes Cordova-Plugin installiert werden. Auf der Homepage des Ionic Frameworks sind diese Informationen in der Dokumentation des \textit{native} Pakets zu finden. Im Fall des Magnetometers muss das Plugin \textit{Device Orientation} heruntergeladen und installiert werden. Dies erfolgt über 2 Kommandos (Siehe Listing (X)), welche in einer Kommando-Shell ausgeführt werden müssen, in welcher zunächst in den Root-Ordner der Anwendung navigiert wurde. 
+Um beispielsweise mit Ionic 2 auf das Magnetometer zugreifen zu können, muss zunächst ein bestimmtes Cordova-Plugin installiert werden. Auf der Homepage des Ionic Frameworks sind diese Informationen in der Dokumentation des \textit{native} Pakets zu finden. Im Fall des Magnetometers muss das Plugin \textit{Device Orientation} heruntergeladen und installiert werden. Dies erfolgt über 2 Kommandos (Siehe Listing \ref{lst:InstallationCordovaPlugin}), welche in einer Kommando-Shell ausgeführt werden müssen, in welcher zunächst in den Root-Ordner der Anwendung navigiert wurde. 
 
 \begin{lstlisting}[caption=Installation des Cordova-Plugins für das Magnetometer, label=lst:InstallationCordovaPlugin, language=bash]
 ionic plugin add cordova-plugin-device-orientation
 npm install --save @ionic-native/device-orientation
 \end{lstlisting}
 
-Anders als bei der nativen Android Entwicklung oder auch bei der Entwicklung mit dem Framework Xamarin, müssen bei der Verwendung von Hardware-Komponenten mit dem Ionic Framework keine Berechtigungen manuell der Anwendung hinzugefügt werden. Die nötigen Berechtigungen bringt das Cordova-Plugin mit sich. Um das installierte Cordova-Plugin in der Anwendung zu nutzen, müssen die dieses Plugin kapselnden Klassen aus dem \textit{native} Paket importiert werden (siehe Listing (X)). 
+Anders als bei der nativen Android Entwicklung oder auch bei der Entwicklung mit dem Framework Xamarin, müssen bei der Verwendung von Hardware-Komponenten mit dem Ionic Framework keine Berechtigungen manuell der Anwendung hinzugefügt werden. Die nötigen Berechtigungen bringt das Cordova-Plugin mit sich. Um das installierte Cordova-Plugin in der Anwendung zu nutzen, müssen die dieses Plugin kapselnden Klassen aus dem \textit{native} Paket importiert werden (siehe Listing \ref{lst:ImportDeviveOrientation}). 
 
 \begin{lstlisting}[caption=Import der Klassen für die Nutzung des Magnetometers aus dem  \textit{native} Paket von Ionic 2, label=lst:ImportDeviveOrientation, language=Java]
 import {DeviceOrientation, DeviceOrientationCompassHeading} from 'ionic-native';
 \end{lstlisting}
 
-Anschließend können die importierten Klassen und ihre Methoden dazu genutzt werden, Daten des Sensors auszulesen und anzuzeigen. Um einmalig den aktuellen Wert des Magnetometers auszulesen, kann die Methode \textit{getCurrentHeading()} der Klasse \textit{DeviceOrientation} verwendet werden. Der Rückgabewert dieser Methode ist vom Typ \textit{DeviceOrientationCompassHeading}. Mithilfe der Methode \textit{magneticHeading()} kann nun der aktuelle Sensorwert aus dem \textit{DeviceOrientationCompassHeading}-Objekt gelesen und weiter genutzt werden. Möchte man den Sensor in einem regelmäßigen Intervall auslesen, so wird die Methode \textit{watchHeading()} benötigt. Da es bei einer Kompass-Anwendung sinnvoll ist, immer den aktuellen Sensorwert anzeigen zu lassen ohne manuell aktualisieren zu müssen, werden die Sensordaten hier mittels der Methode \textit{watchHeading()} ausgelesen und angezeigt (siehe Listing(X)). 
+Anschließend können die importierten Klassen und ihre Methoden dazu genutzt werden, Daten des Sensors auszulesen und anzuzeigen. Um einmalig den aktuellen Wert des Magnetometers auszulesen, kann die Methode \textit{getCurrentHeading()} der Klasse \textit{DeviceOrientation} verwendet werden. Der Rückgabewert dieser Methode ist vom Typ \textit{DeviceOrientationCompassHeading}. Mithilfe der Methode \textit{magneticHeading()} kann nun der aktuelle Sensorwert aus dem \textit{DeviceOrientationCompassHeading}-Objekt gelesen und weiter genutzt werden. Möchte man den Sensor in einem regelmäßigen Intervall auslesen, so wird die Methode \textit{watchHeading()} benötigt. Da es bei einer Kompass-Anwendung sinnvoll ist, immer den aktuellen Sensorwert anzeigen zu lassen ohne manuell aktualisieren zu müssen, werden die Sensordaten hier mittels der Methode \textit{watchHeading()} ausgelesen und angezeigt (siehe Listing \ref{lst:getDataDeviceOrientation}). 
 
 \begin{lstlisting}[caption=Auslesen der Daten des Magnetometers mithilfe der Methode \textit{watchHeading()}, label=lst:getDataDeviceOrientation, language=Java]
 platform.ready().then(() => {
@@ -431,7 +431,7 @@ platform.ready().then(() => {
 Für die Nutzung der Kamera gibt es ähnlich wie oben bei der Sensornutzung beschrieben eine kapselnde Klasse im \textit{native} Paket des Ionic 2 Frameworks. Der Name dieser Klasse ist simpel \textit{Camera}. Um diese Klasse zu nutzen muss ebenfalls wie bei der Sensornutzung vorab ein Cordova-Plugin installiert werden. In diesem Fall ist es das Plugin \textit{Camera}. Die Installation erfolgt über die Kommando-Shell. 
 \\
 \\
-Ruft man die Methode \textit{getPicture()} der Klasse \textit{Camera} auf, so wird über das installierte Cordova-Plugin die native Android Kamera-Anwendung gestartet. Der Methode \textit{getPicture()} können hierbei noch weitere Optionen, zum Beispiel bezüglich der Bildqualität, mitgegeben werden (siehe Listing(X)). 
+Ruft man die Methode \textit{getPicture()} der Klasse \textit{Camera} auf, so wird über das installierte Cordova-Plugin die native Android Kamera-Anwendung gestartet. Der Methode \textit{getPicture()} können hierbei noch weitere Optionen, zum Beispiel bezüglich der Bildqualität, mitgegeben werden (siehe Listing \ref{lst:CameraIonic}). 
 
 \begin{lstlisting}[caption=Aufruf der Android Kamera-Anwendung über die Methode \textit{getPicture()}, label=lst:CameraIonic, language=Java]
 public takePicture(sourceType) {
@@ -452,11 +452,11 @@ public takePicture(sourceType) {
 }
 \end{lstlisting}
 
-Wie man oben in Listing (X) sehen kann, wird, nachdem mit der Android Kamera-Anwendung ein Foto geschossen wurde, ein Dateiname mit der Methode \textit{createFileName()} für dieses generiert und die Methode \textit{copyFileToLocalDir} aufgerufen, in der das Speichern dieses Bildes implementiert ist. Die Methode \textit{getPicture()} liefert hier unter anderem den Pfad, unter dem die Android Kamera-Anwendung das Bild zwischenspeichert, zurück.
+Wie man oben in Listing \ref{lst:CameraIonic} sehen kann, wird, nachdem mit der Android Kamera-Anwendung ein Foto geschossen wurde, ein Dateiname mit der Methode \textit{createFileName()} für dieses generiert und die Methode \textit{copyFileToLocalDir} aufgerufen, in der das Speichern dieses Bildes implementiert ist. Die Methode \textit{getPicture()} liefert hier unter anderem den Pfad, unter dem die Android Kamera-Anwendung das Bild zwischenspeichert, zurück.
 
 \subsection*{Speicherzugriffe}
 
-Die Speicherzugriffe zum Speichern und laden geschossener Fotos werden ebenfalls über ein Cordova-Plugin (\textit{File} und \textit{File Transfer}) abgehandelt. Die benötigten Klassen aus dem \textit{native} Paket, welche importiert werden müssen sind \textit{File} und \textit{FilePath}. Wie oben in Listing (X) schon zu sehen war, wird das Speichern in der Methode \textit{copyFileToLocalDir()} vorgenommen. Der Methode werden dafür der aktuelle Pfad, der Name des Bildes und ein neuer Name übergeben. Mit der Methode \textit{copyFile()} wird das Bild nun in dem angegebenen Ordner abgelegt. In diesem Fall ist das \textit{cordova.file.externalDataDirectory}. Das \textit{externalDataDirectory} des Cordova-Plugins entspricht dem \textit{External Storage} von Android. Der eben beschriebene Speichervorgang ist unten in Listing (X) zu sehen. 
+Die Speicherzugriffe zum Speichern und laden geschossener Fotos werden ebenfalls über ein Cordova-Plugin (\textit{File} und \textit{File Transfer}) abgehandelt. Die benötigten Klassen aus dem \textit{native} Paket, welche importiert werden müssen sind \textit{File} und \textit{FilePath}. Wie oben in Listing \ref{lst:CameraIonic} schon zu sehen war, wird das Speichern in der Methode \textit{copyFileToLocalDir()} vorgenommen. Der Methode werden dafür der aktuelle Pfad, der Name des Bildes und ein neuer Name übergeben. Mit der Methode \textit{copyFile()} wird das Bild nun in dem angegebenen Ordner abgelegt. In diesem Fall ist das \textit{cordova.file.externalDataDirectory}. Das \textit{externalDataDirectory} des Cordova-Plugins entspricht dem \textit{External Storage} von Android. Der eben beschriebene Speichervorgang ist unten in Listing \ref{lst:SavePictureIonic} zu sehen. 
 \clearpage
 
 \begin{lstlisting}[caption=Methode \textit{copyFileToLocalDir()} zum Speichern der aufgenommenen Bilder, label=lst:SavePictureIonic, language=Java]
@@ -472,7 +472,7 @@ private copyFileToLocalDir(namePath, currentName, newFileName) {
 
 \section{Implementierung mit React Native}
 
-Wie schon zuvor bei der Entwicklung mit dem Ionic 2 Framework und Cordova muss auch für die Entwicklung mit dem React Native Framework Node.js installiert sein. Anschließend wird das React Native Kommandozeilen Interface installiert. Eine React Native Anwendung basiert auf React. React, oder auch ReactJS ist ein JavaScript Framework zum Designen von Benutzeroberflächen (Quelle (X)). Der Quellcode ist teilweise in JavaScript, teils in HTML geschrieben. Zum Entwickeln mit React Native kann ein beliebiger Editor verwendet werden. Zum optimalen Vergleich wird auch die React Native Anwendung gegen die API 23, die Major Version 6 (Marshmallow), kompiliert.  
+Wie schon zuvor bei der Entwicklung mit dem Ionic 2 Framework und Cordova muss auch für die Entwicklung mit dem React Native Framework Node.js installiert sein. Anschließend wird das React Native Kommandozeilen Interface installiert. Eine React Native Anwendung basiert auf React. React, oder auch ReactJS ist ein JavaScript Framework zum Designen von Benutzeroberflächen\footcite{React}. Der Quellcode ist teilweise in JavaScript, teils in HTML geschrieben. Zum Entwickeln mit React Native kann ein beliebiger Editor verwendet werden. Zum optimalen Vergleich wird auch die React Native Anwendung gegen die API 23, die Major Version 6 (Marshmallow), kompiliert.  
 
 \subsection*{Grafische Benutzeroberfläche}
 
@@ -482,13 +482,13 @@ Im Gegensatz zur Entwicklung mit dem Ionic Framework und auch mit Xamarin, steht
 React Native unterstützt bereits einige gängige UI-Elemente, wie zum Beispiel den \textit{FloatingActionButton}. Sollte man allerdings etwas Spezielles benötigen, was nicht in den React Native Bibliotheken enthalten ist, so können auch manuell weitere native Komponenten der Anwendung hinzugefügt werden. Die Basis-Quellcode-Dateien für die beiden Systeme Android und iOS liegen direkt unter dem Root-Verzeichnis der Anwendung. Möchte man ausschließlich gemeinsamen Code verwenden, so kann man eine neue gemeinsame Basis-Quelldatei anlegen und in den plattformspezifischen Dateien diese importieren. 
 \\
 \\
-Für ein wie in Kapitel (X) gefordertes Menü bietet das React Native Framework den sogenannten \textit{DrawerNavigator}. Um diesen zu nutzen muss er zunächst oben in der Basis-Quelldatei importiert werden (siehe Listing (X)).
+Für ein wie in Kapitel \ref{OOAOODGUI} gefordertes Menü bietet das React Native Framework den sogenannten \textit{DrawerNavigator}. Um diesen zu nutzen muss er zunächst oben in der Basis-Quelldatei importiert werden (siehe Listing \ref{lst:ImportDrawerNavigator}).
 
 \begin{lstlisting}[caption=Import der Klasse \textit{DrawerNavigator} für das Menü in React Native, label=lst:ImportDrawerNavigator, language=Java]
 import { DrawerNavigator } from 'react-navigation';
 \end{lstlisting}
 
-Eine Seite, hier ein Screen, wird durch eine eigene Klasse dargestellt, welche von der Klasse \textit{React.Component} erben muss. Der Titel der Seite wird nebst anderen Einstellungen wie ein Icon in den statischen \textit{navigationOptions} festgelegt (siehe Listing (X)).
+Eine Seite, hier ein Screen, wird durch eine eigene Klasse dargestellt, welche von der Klasse \textit{React.Component} erben muss. Der Titel der Seite wird nebst anderen Einstellungen wie ein Icon in den statischen \textit{navigationOptions} festgelegt (siehe Listing \ref{lst:SeitentitelReactNative}).
 
 \begin{lstlisting}[caption=Festlegen des Seitentitels, label=lst:SeitentitelReactNative, language=Java]
 class MyHomeScreen extends React.Component {
@@ -504,7 +504,7 @@ class MyHomeScreen extends React.Component {
 }
 \end{lstlisting}
 
-Zuletzt müssen die einzelnen Seiten, zu denen man navigieren können soll einem \textit{DrawerNavigator}-Objekt zugeordnet werden. Dies geschieht, wie man in Listing (X) sehen kann in der Konstanten \textit{DrawerApp}. 
+Zuletzt müssen die einzelnen Seiten, zu denen man navigieren können soll einem \textit{DrawerNavigator}-Objekt zugeordnet werden. Dies geschieht, wie man in Listing \ref{lst:DrawerNavigatorConfig} sehen kann in der Konstanten \textit{DrawerApp}. 
 \clearpage
 
 \begin{lstlisting}[caption=Konfiguration des \textit{DrawerNavigators}, label=lst:DrawerNavigatorConfig, language=Java]
@@ -522,17 +522,17 @@ const DrawerApp = DrawerNavigator({
 });
 \end{lstlisting}
 
-Nachfolgend ist in Abbildung (X) das Menü der React Native Anwendung dargestellt. Es lässt sich wie gewohnt über Wischen öffnen und schließen. Anders als die Menüs der anderen Frameworks und das native Menü hat das Menü der React Native Anwendung keinen integrierten Header.
+Nachfolgend ist in Abbildung \ref{fig:MenuReactNative} das Menü der React Native Anwendung dargestellt. Es lässt sich wie gewohnt über Wischen öffnen und schließen. Anders als die Menüs der anderen Frameworks und das native Menü hat das Menü der React Native Anwendung keinen integrierten Header.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.4\textwidth]{Bilder/Screenshot_20170412-213445.PNG}
 	\caption{Menü in der React Native Anwendung}
-	\label{fig:MenuXamarin}
+	\label{fig:MenuReactNative}
 \end{figure}
 \clearpage
 
-Einen \textit{FloatingActionButton} bringt das React Native Framework nicht direkt mit. Ein \textit{TouchableHighlight}-Objekt lässt sich allerdings so modifizieren, dass es aussieht und sich verhält wie ein \textit{FloatingActionButton} von Android. Das \textit{TouchableHighlight}-Objekt wird in der \textit{render()}-Funktion der Klasse der Seite deklariert, auf dem der FAB zu sehen sein soll (siehe Listing (X)). 
+Einen \textit{FloatingActionButton} bringt das React Native Framework nicht direkt mit. Ein \textit{TouchableHighlight}-Objekt lässt sich allerdings so modifizieren, dass es aussieht und sich verhält wie ein \textit{FloatingActionButton} von Android. Das \textit{TouchableHighlight}-Objekt wird in der \textit{render()}-Funktion der Klasse der Seite deklariert, auf dem der FAB zu sehen sein soll (siehe Listing \ref{lst:FABReactNative}). 
 
 \begin{lstlisting}[caption=Deklaration eines \textit{TouchableHighlight}-Objekts als \textit{FloatingActionButton}, label=lst:FABReactNative, language=Java]
 render() {
@@ -544,7 +544,7 @@ render() {
   }
 \end{lstlisting}
 
-Über \textit{style=styles.addButton} wird dem Objekt sein Design zugeordnet. Das \textit{FloatingActionButton}-Design steckt dabei in dem Attribut \textit{addButton}. In diesem wurden Größe, Form, Position, Verhalten etc. definiert, wie in Listing (X) zu sehen ist.
+Über \textit{style=styles.addButton} wird dem Objekt sein Design zugeordnet. Das \textit{FloatingActionButton}-Design steckt dabei in dem Attribut \textit{addButton}. In diesem wurden Größe, Form, Position, Verhalten etc. definiert, wie in Listing \ref{lst:FABDesignReactNative} zu sehen ist.
 
 \begin{lstlisting}[caption=Das \textit{FloatingActionButton}-Design, label=lst:FABDesignReactNative, language=Java]
 addButton: {
@@ -574,20 +574,20 @@ addButton: {
 Möchte man in einer React Native Anwendungen auf die Sensoren des Smartphones zugreifen, so bietet sich hierfür die \textit{react-native-sensor-manager}-Bibliothek an. Sensoren, auf die über den Sensor Manager zugegriffen werden können sind: der Beschleunigungssensor, das Gyroskop, das Magnetometer, der Lagesensor, das Thermometer, der Lichtsensor und der Näherungssensor. Das GPS ist direkt über die API des React Native Frameworks ansprechbar. 
 \\
 \\
-Um den Sensor Manager zu nutzen muss dieser zunächst über die Kommando-Shell installiert via \textit{npm} installiert und die Bibliothek verlinkt werden (siehe Listing (X)).
+Um den Sensor Manager zu nutzen muss dieser zunächst über die Kommando-Shell installiert via \textit{npm} installiert und die Bibliothek verlinkt werden (siehe Listing \ref{lst:InstallationSensorManagerRN}).
 
 \begin{lstlisting}[caption=Installation und Verlinkung der Bibliothek \textit{react-native-sensor-manager}, label=lst:InstallationSensorManagerRN, language=bash]
 npm i react-native-sensor-manager --save
 react-native link react-native-sensor-manager
 \end{lstlisting}
 
-Fehlen Berechtigungen, so können diese manuell im \textit{AndroidManifest} unter \textit{/android/app/src/main} hinzugefügt werden. Anschließend muss die Klasse \textit{SensorManager} aus dem Paket \textit{NativeModules} in der Quelldatei importiert werden (siehe Listing (X)). 
+Fehlen Berechtigungen, so können diese manuell im \textit{AndroidManifest} unter \textit{/android/app/src/main} hinzugefügt werden. Anschließend muss die Klasse \textit{SensorManager} aus dem Paket \textit{NativeModules} in der Quelldatei importiert werden (siehe Listing \ref{lst:ImportSensorManager}). 
 
 \begin{lstlisting}[caption=Import der \textit{SensorManager}-Klasse, label=lst:ImportSensorManager, language=Java]
 import { SensorManager } from 'NativeModules';
 \end{lstlisting}
 
-Das Auslesen und Präsentieren von Sensordaten wird in diesem Fall wieder anhand des Näherungssensors gezeigt. Der Sensor wird im Konstruktor der Seite gestartet, auf der die Daten des Sensors präsentiert werden sollen. Über die Methode \textit{startProximitx()} wird der Näherungssensor gestartet (siehe Listing (X)). Die der Methode übergebene Zahl '100' bedeutet eine Verzögerung von mindestens 100ms zwischen den Events. Mithilfe der Klasse \textit{DeviceEventEmitter} aus der \textit{react-native}-Bibliothek wird ein \textit{Listener} hinzugefügt. 
+Das Auslesen und Präsentieren von Sensordaten wird in diesem Fall wieder anhand des Näherungssensors gezeigt. Der Sensor wird im Konstruktor der Seite gestartet, auf der die Daten des Sensors präsentiert werden sollen. Über die Methode \textit{startProximitx()} wird der Näherungssensor gestartet (siehe Listing \ref{lst:ProximityData}). Die der Methode übergebene Zahl '100' bedeutet eine Verzögerung von mindestens 100ms zwischen den Events. Mithilfe der Klasse \textit{DeviceEventEmitter} aus der \textit{react-native}-Bibliothek wird ein \textit{Listener} hinzugefügt. 
 \clearpage
 
 \begin{lstlisting}[caption=Auslesen und Anzeigen der Daten des Näherungssensors, label=lst:ProximityData, language=Java]
@@ -609,7 +609,7 @@ constructor(props) {
 Um die Kamerafunktionen des Smartphones in einer React Native Anwendung nutzen zu können, muss zunächst die Bibliothek \textit{react-native-camera} via \textit{npm} installiert werden. Anschließend muss die Bibliothek noch mit dem Befehl \textit{react-native link react-native-camera} verknüpft und in der Quelldatei importiert werden. Gegebenenfalls müssen noch Berechtigungen im \textit{AndroidManifest}, welches unter \textit{/android/app/src/main} liegt, hinzugefügt werden. 
 \\
 \\
-Anders als beim Ionic und Xamarin Framework gibt es im React Native Framework direkte Möglichkeit die Android Kameraanwendung innerhalb der React Native Anwendung zu starten. Aus diesem Grund wurden Elemente wie der Auslösebutton und die Blitzeinstellungen manuell der Seite mit der Kamerafunktion hinzugefügt. Die Designs der einzelnen UI-Elemente wurden wie das Design des \textit{FloatingActionButtons} unter \textit{const styles} hinzugefügt. Listing (X) zeigt beispielhaft das Design des Auslösebuttons.
+Anders als beim Ionic und Xamarin Framework gibt es im React Native Framework direkte Möglichkeit die Android Kameraanwendung innerhalb der React Native Anwendung zu starten. Aus diesem Grund wurden Elemente wie der Auslösebutton und die Blitzeinstellungen manuell der Seite mit der Kamerafunktion hinzugefügt. Die Designs der einzelnen UI-Elemente wurden wie das Design des \textit{FloatingActionButtons} unter \textit{const styles} hinzugefügt. Listing \ref{lst:styleCaptureButton} zeigt beispielhaft das Design des Auslösebuttons.
 
 \begin{lstlisting}[caption=Das Design des Auslösebuttons für die Kamerafunktion, label=lst:styleCaptureButton, language=Java]
 const styles = StyleSheet.create({
@@ -623,7 +623,7 @@ captureButton: {
 });
 \end{lstlisting} 
 
-In der \textit{render()}-Funktion werden die einzelnen Elemente der Benutzeroberfläche deklariert. Das oben (Listing(X)) gezeigte Design wird hier einem \textit{TouchableOpacity}-Objekt zugeordnet, welches dann den Auslösebutton darstellt (siehe Listing (X)). 
+In der \textit{render()}-Funktion werden die einzelnen Elemente der Benutzeroberfläche deklariert. Das oben (Listing \ref{lst:styleCaptureButton}) gezeigte Design wird hier einem \textit{TouchableOpacity}-Objekt zugeordnet, welches dann den Auslösebutton darstellt (siehe Listing \ref{lst:CaptureButton}). 
 
 \begin{lstlisting}[caption=Deklaration eines \textit{TouchableOpacity}-UI-Objekts für die Darstellung des Auslösebuttons der Kamera, label=lst:CaptureButton, language=Java]
 render() {
@@ -640,7 +640,7 @@ render() {
 }
 \end{lstlisting} 
 
-Wird der Button gedrückt, so wird die Methode \textit{takePicture()} aufgerufen, welche nachfolgend in Listing (X) dargestellt ist. Innerhalb dieser Methode wird die Methode \textit{capture()} des Kameraobjekts \textit{camera} aufgerufen. Dies ist die eigentliche Auslösefunktion der Kamera. Das geschossene Bild wird automatische mit Timestamp im Namen im öffentlichen Bilder-Verzeichnis des Android Smartphones gespeichert. 
+Wird der Button gedrückt, so wird die Methode \textit{takePicture()} aufgerufen, welche nachfolgend in Listing \ref{lst:takePictureReactNative} dargestellt ist. Innerhalb dieser Methode wird die Methode \textit{capture()} des Kameraobjekts \textit{camera} aufgerufen. Dies ist die eigentliche Auslöse-funktion der Kamera. Das geschossene Bild wird automatische mit Timestamp im Namen im öffentlichen Bilder-Verzeichnis des Android Smartphones gespeichert. 
 
 \begin{lstlisting}[caption=Die Methode \textit{takePicture()} zum Auslösen der Kamera, label=lst:takePictureReactNative, language=Java]
 takePicture = () => {
@@ -652,7 +652,7 @@ takePicture = () => {
 }
 \end{lstlisting} 
 
-Das oben in Listing (X) verwendete Kameraobjekt \textit{camera} wird im Konstruktor der Klasse initialisiert (siehe Listing (X)). Hier werden dem Objekt Voreinstellungen mitgegeben. Beim Start der Kameraanwendung ist in diesem Fall die Rückkamera des Smartphones aktiv und der Blitz ist auf automatisch eingestellt. 
+Das oben in Listing \ref{lst:takePictureReactNative} verwendete Kameraobjekt \textit{camera} wird im Konstruktor der Klasse initialisiert (siehe Listing \ref{lst:InitialisierungCameraRN} unten). Hier werden dem Objekt Voreinstellungen mitgegeben. Beim Start der Kameraanwendung ist in diesem Fall die Rückkamera des Smartphones aktiv und der Blitz ist auf automatisch eingestellt. 
 \clearpage
 
 \begin{lstlisting}[caption=Initialisierung des Kameraobjekts im Konstruktor, label=lst:InitialisierungCameraRN, language=Java]
@@ -668,7 +668,7 @@ isRecording: false
 ...
 \end{lstlisting}
 
-Für das Ändern des Blitzmodus wird ein UI-Element, welches selbst den aktuell ausgewählten Blitzmodus anzeigt, oben rechts im Bild gesetzt. Durch tippen auf dieses Element wird durch die 3 verschiedenen Blitzoptionen \textit{on}, \textit{off} und \textit{auto} rotiert. Listing (X) zeigt die Initialisierung dieses Elements.  
+Für das Ändern des Blitzmodus wird ein UI-Element, welches selbst den aktuell ausgewählten Blitzmodus anzeigt, oben rechts im Bild gesetzt. Durch tippen auf dieses Element wird durch die 3 verschiedenen Blitzoptionen \textit{on}, \textit{off} und \textit{auto} rotiert. Listing \ref{lst:FlashSwitchElement} zeigt die Initialisierung dieses Elements.  
 
 \begin{lstlisting}[caption=Initialisierung des UI-Elements zum Wechseln des Blitzmodus, label=lst:FlashSwitchElement, language=Java]
 ...
@@ -681,7 +681,7 @@ Für das Ändern des Blitzmodus wird ein UI-Element, welches selbst den aktuell 
 ...
 \end{lstlisting}
 
-Die Methode \textit{switchFlash()} übernimmt das Rotieren durch die Blitzoptionen. Wie man in Listing (X) erkennen kann, besitzt das Kameraobjekt ein Attribut \textit{flashMode}, welches entsprechend dem momentan ausgewählten Modus bei Aufruf der Methode \textit{switchFlash()} einen anderen Modus zugewiesen bekommt. Die Methode \textit{flashIcon()} ist wie die Methode \textit{switchFlash()} aufgebaut, nur das in ihr das entsprechende Icon des UI-Elements für die Blitzoptionen gesetzt wird.
+Die Methode \textit{switchFlash()} übernimmt das Rotieren durch die Blitzoptionen. Wie man in Listing \ref{lst:switchFlash} erkennen kann, besitzt das Kameraobjekt ein Attribut \textit{flashMode}, welches entsprechend dem momentan ausgewählten Modus bei Aufruf der Methode \textit{switchFlash()} einen anderen Modus zugewiesen bekommt. Die Methode \textit{flashIcon()} ist wie die Methode \textit{switchFlash()} aufgebaut, nur das in ihr das entsprechende Icon des UI-Elements für die Blitzoptionen gesetzt wird.
 \clearpage
 
 \begin{lstlisting}[caption=Die Methode \textit{switchFlash()} für das Ändern des Blitzmodus, label=lst:switchFlash, language=Java]
@@ -706,7 +706,7 @@ switchFlash = () => {
 }
 \end{lstlisting}
 
-Die manuell erstellte Benutzeroberfläche für die Bedienung der Kamerafunktionen in der React Native Anwendung ist nachfolgend in Abbildung (X) dargestellt. In der linken oberen Ecke ist das Element zum Wechseln zwischen Rück- und Frontkamera. Die Funktionsweise dieses Elements entspricht der der Blitzoptionen. 
+Die manuell erstellte Benutzeroberfläche für die Bedienung der Kamerafunktionen in der React Native Anwendung ist nachfolgend in Abbildung \ref{fig:KameraReact} dargestellt. In der linken oberen Ecke ist das Element zum Wechseln zwischen Rück- und Frontkamera. Die Funktionsweise dieses Elements entspricht der der Blitzoptionen. 
 \clearpage
 
 \begin{figure}[h]
@@ -718,7 +718,7 @@ Die manuell erstellte Benutzeroberfläche für die Bedienung der Kamerafunktione
 
 \subsection*{Speicherzugriffe}
 
-Um die geschossenen Fotos, oder bei Bedarf auch weitere Bilder, die Auf dem Smartphone gespeichert sind, zu laden wird die Methode \textit{getPhotos()} der Klasse \textit{CameraRoll} aufgerufen (siehe Listing (X)). Die Klasse \textit{CameraRoll} ist aus dem Plugin \textit{rn-camera-roll}, welches zuvor über \textit{npm} installiert und anschließend in der Quelldatei importiert werden musste. Der Methode \textit{getPhotos()} können hierbei verschiedene Optionen mitgegeben werden, die unter anderem angeben, welche Bilddateien geladen werden sollen. Ein paar Möglichkeiten sind hier \textit{Library}, \textit{All} oder \textit{Album}. Per Default wird \textit{SavedPhotos} mitgegeben. 
+Um die geschossenen Fotos, oder bei Bedarf auch weitere Bilder, die Auf dem Smartphone gespeichert sind, zu laden wird die Methode \textit{getPhotos()} der Klasse \textit{CameraRoll} aufgerufen (siehe Listing \ref{lst:getPhotosReactNative}). Die Klasse \textit{CameraRoll} ist aus dem Plugin \textit{rn-camera-roll}, welches zuvor über \textit{npm} installiert und anschließend in der Quelldatei importiert werden musste. Der Methode \textit{getPhotos()} können hierbei verschiedene Optionen mitgegeben werden, die unter anderem angeben, welche Bilddateien geladen werden sollen. Ein paar Möglichkeiten sind hier \textit{Library}, \textit{All} oder \textit{Album}. Per Default wird \textit{SavedPhotos} mitgegeben. 
 \clearpage
 
 \begin{lstlisting}[caption=Aufruf der Methode \textit{getPhotos()} für die Anzeige gespeicherter Bilder in einer Galerie, label=lst:getPhotosReactNative, language=Java]

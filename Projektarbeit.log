@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.16)  2 MAY 2017 23:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.16)  3 MAY 2017 21:44
 entering extended mode
 **./Projektarbeit.tex
 (Projektarbeit.tex
@@ -1404,14 +1404,7 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count315
 \@quotereset=\count316
-(Projektarbeit.aux
-
-LaTeX Warning: Label `fig:MenuXamarin' multiply defined.
-
-
-LaTeX Warning: Label `fig:MenuXamarin' multiply defined.
-
-)
+(Projektarbeit.aux)
 \openout1 = `Projektarbeit.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 94.
@@ -1574,8 +1567,13 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 119.
  [3]
-Overfull \hbox (1.01994pt too wide) detected at line 123
+Overfull \hbox (1.01994pt too wide) detected at line 121
  []\OT1/jkp/m/n/12 100
+ []
+
+
+Overfull \hbox (1.01994pt too wide) detected at line 123
+ []\OT1/jkp/m/n/12 101
  []
 
 
@@ -1585,7 +1583,7 @@ Overfull \hbox (1.67993pt too wide) detected at line 125
 
 
 Overfull \hbox (1.01994pt too wide) detected at line 125
- []\OT1/jkp/m/n/12 101
+ []\OT1/jkp/m/n/12 102
  []
 
 
@@ -1595,7 +1593,7 @@ Overfull \hbox (1.67993pt too wide) detected at line 127
 
 
 Overfull \hbox (1.01994pt too wide) detected at line 127
- []\OT1/jkp/m/n/12 101
+ []\OT1/jkp/m/n/12 102
  []
 
 
@@ -1605,7 +1603,7 @@ Overfull \hbox (1.67993pt too wide) detected at line 129
 
 
 Overfull \hbox (1.01994pt too wide) detected at line 129
- []\OT1/jkp/m/n/12 101
+ []\OT1/jkp/m/n/12 102
  []
 
 )
@@ -1697,12 +1695,6 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-
-Overfull \hbox (42.42921pt too wide) in paragraph at lines 3--4
-\OT1/jkp/m/n/12 und auch Cross-Plattform, be-zie-hungs-wei-se hy-bri-de An-wen-
-dungs-ent-wick-lung ver[]offentlicht.
- []
-
 LaTeX Font Info:    Try loading font information for TS1+jkp on input line 6.
 (F:\Programme\MikTex\tex\latex\kpfonts\ts1jkp.fd
 File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
@@ -1713,13 +1705,13 @@ er-wen-den meist g[]angige
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 18.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 18.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 18.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 18.
 [8
 
 ]
@@ -1845,15 +1837,9 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 23.
 
-Overfull \hbox (28.58568pt too wide) in paragraph at lines 25--26
+Overfull \hbox (2.36572pt too wide) in paragraph at lines 25--26
 \OT1/jkp/m/n/12 Ger[]at in-stal-liert ist, in-ter-a-gie-ren. So kann die na-ti-
-ve An-wen-dung auch die ger[]atespezifische
- []
-
-
-Overfull \hbox (26.3266pt too wide) in paragraph at lines 25--26
-\OT1/jkp/m/n/12 durch die ein-heit-li-che Nut-zung der Schnitt-stel-len zur Har
-d-wa-re op-ti-mal nut-zen k[]onnen[][][].
+ve An-wen-dung auch die ger[]atespezi-
  []
 
 Package babel Info: Redefining ngerman shorthand "|
@@ -1988,18 +1974,6 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 14.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 14.
-
-Overfull \hbox (38.71072pt too wide) in paragraph at lines 16--17
-\OT1/jkp/m/n/12 gen-de Be-rei-che un-ter-teilt: Zu-griffsm[]oglichkeiten und Nu
-t-zung von Hardware-Komponenten
- []
-
-
-Overfull \hbox (2.8817pt too wide) in paragraph at lines 16--17
-\OT1/jkp/m/n/12 cher-heit, In-te-r-ope-ra-bi-lit[]at und Tests und Per-for-man-
-ce. Da-nach wer-den noch die nicht-
- []
-
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 17.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2351,12 +2325,6 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 27.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 27.
-
-Overfull \hbox (65.24501pt too wide) in paragraph at lines 29--30
-\OT1/jkp/m/n/12 Fra-me-work ent-spre-chend an-zu-pas-sen oder zu er-wei-tern. M
-it dem Punkt []Abw[]artskompatibilit[]at\
- []
-
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 30.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2365,7 +2333,8 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 30.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 30.
-[35] <Bilder/Bewertungsmatrix_1.PNG, id=745, 690.32906pt x 386.94562pt>
+ [35]
+<Bilder/Bewertungsmatrix_1.PNG, id=745, 690.32906pt x 386.94562pt>
 File: Bilder/Bewertungsmatrix_1.PNG Graphic file (type png)
 
 <use Bilder/Bewertungsmatrix_1.PNG>
@@ -2375,12 +2344,6 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 38.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 38.
-
-Overfull \hbox (15.54997pt too wide) in paragraph at lines 40--44
-\OT1/jkp/m/n/12 schleu-ni-gungs-sen-sor, der La-ge-s-en-sor mit dem Gy-ro-skop,
- das GPS, der N[]aherungssensor,
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 40--44
 
@@ -2403,63 +2366,55 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 49.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 49.
-
-Overfull \hbox (21.36166pt too wide) in paragraph at lines 51--52
-\OT1/jkp/m/n/12 mit ei-ner "Ja-"Nein-Un-ter-schei-dung be-wer-tet (sie-he Ab-bi
-l-dung []6.2[]), d.h. es wird []uberpr[]uft,
- []
-
-<Bilder/Bewertungsmatrix_2.PNG, id=757, 693.34032pt x 389.95688pt>
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 52.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 52.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 52.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 52.
+ [37]
+<Bilder/Bewertungsmatrix_2.PNG, id=762, 693.34032pt x 389.95688pt>
 File: Bilder/Bewertungsmatrix_2.PNG Graphic file (type png)
 
 <use Bilder/Bewertungsmatrix_2.PNG>
-Package pdftex.def Info: Bilder/Bewertungsmatrix_2.PNG used on input line 55.
+Package pdftex.def Info: Bilder/Bewertungsmatrix_2.PNG used on input line 56.
 (pdftex.def)             Requested size: 448.13095pt x 252.04684pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 61.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 61.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 65.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 65.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 69.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 69.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 59.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 59.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 59.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 59.
-[37]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 59.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 59.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 59.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 59.
- [38 <./Bilder/Bewertungsmatrix_2.PNG>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 60.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 60.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 64.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 64.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 68.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 68.
-
-Overfull \hbox (60.02425pt too wide) in paragraph at lines 70--71
+Overfull \hbox (5.05229pt too wide) in paragraph at lines 71--72
 []\OT1/jkp/m/n/12 6.3[])? Zu-dem wer-den in-for-ma-ti-ve An-ga-ben zu der Rea-l
-i-sie-rung des Zu-griffs auf Ger[]atefunktionen
+i-sie-rung des Zu-griffs auf Ger[]ate-
  []
 
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 72.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 72.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 72.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 72.
+[38
+
+ <./Bilder/Bewertungsmatrix_2.PNG>]
 <Bilder/Bewertungsmatrix_3.PNG, id=770, 694.09312pt x 250.68657pt>
 File: Bilder/Bewertungsmatrix_3.PNG Graphic file (type png)
 
 <use Bilder/Bewertungsmatrix_3.PNG>
-Package pdftex.def Info: Bilder/Bewertungsmatrix_3.PNG used on input line 74.
+Package pdftex.def Info: Bilder/Bewertungsmatrix_3.PNG used on input line 75.
 (pdftex.def)             Requested size: 448.13095pt x 161.85799pt.
 ) (PlanungAnwendung.tex
 Package babel Info: Redefining ngerman shorthand "|
@@ -2470,9 +2425,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
- [39
-
- <./Bilder/Bewertungsmatrix_3.PNG>]
+ [39 <./Bilder/Bewertungsmatrix_3.PNG>]
 chapter 7.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
@@ -2498,11 +2451,6 @@ Package babel Info: Redefining ngerman shorthand "~
 [40
 
 ]
-Overfull \hbox (24.08542pt too wide) in paragraph at lines 15--16
-\OT1/jkp/m/n/12 Gef[]uhl von M[]uhelosigkeit ver-mit-teln sol-len. Dem Be-nut-z
-er soll die M[]oglichkeit
- []
-
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 20.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2511,7 +2459,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 20.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 20.
-[41]
+ [41]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 28.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2813,12 +2761,6 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-
-Overfull \hbox (15.35655pt too wide) in paragraph at lines 3--4
-\OT1/jkp/m/n/12 In die-sem Ka-pi-tel wer-den die Im-ple-men-tie-run-gen der Fun
-ktionstest-Anwendung gem[]a
- []
-
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 5.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2978,7 +2920,7 @@ Package babel Info: Redefining ngerman shorthand "~
 
 ]
 Overfull \hbox (26.19258pt too wide) in paragraph at lines 231--232
-[]\OT1/jkp/m/n/12 In nach-fol-gen-der Ab-bil-dung []9.4[] ist der \OT1/jkp/m/it
+[]\OT1/jkp/m/n/12 In nach-fol-gen-der Ab-bil-dung []9.1[] ist der \OT1/jkp/m/it
 /12 Na-vi-ga-tion-Dra-wer \OT1/jkp/m/n/12 mit den ein-zel-nen Men[]upunkten
  []
 
@@ -2990,7 +2932,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 232.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 232.
-[65] <Bilder/Screenshot_20170328-193448.PNG, id=1158, 1084.05pt x 1927.2pt>
+[65] <Bilder/Screenshot_20170328-193448.PNG, id=1159, 1084.05pt x 1927.2pt>
 File: Bilder/Screenshot_20170328-193448.PNG Graphic file (type png)
 
 <use Bilder/Screenshot_20170328-193448.PNG>
@@ -3109,7 +3051,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 382.
  [71]
-<Bilder/Screenshot_20170328-165235.PNG, id=1291, 1084.05pt x 1927.2pt>
+<Bilder/Screenshot_20170328-165235.PNG, id=1295, 1084.05pt x 1927.2pt>
 File: Bilder/Screenshot_20170328-165235.PNG Graphic file (type png)
 
 <use Bilder/Screenshot_20170328-165235.PNG>
@@ -3217,7 +3159,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 508.
  [77]
-<Bilder/Screenshot_20170412-213445.PNG, id=1376, 1084.05pt x 1927.2pt>
+<Bilder/Screenshot_20170412-213445.PNG, id=1400, 1084.05pt x 1927.2pt>
 File: Bilder/Screenshot_20170412-213445.PNG Graphic file (type png)
 
 <use Bilder/Screenshot_20170412-213445.PNG>
@@ -3257,6 +3199,11 @@ Package babel Info: Redefining ngerman shorthand "~
 [79
 
 ]
+Overfull \hbox (1.07655pt too wide) in paragraph at lines 584--585
+\OT1/jkp/m/n/12 aus dem Pa-ket \OT1/jkp/m/it/12 Na-ti-ve-Mo-du-les \OT1/jkp/m/n
+/12 in der Quell-da-tei im-por-tiert wer-den (sie-he Lis-ting []9.34[]). 
+ []
+
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 591.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3265,7 +3212,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 591.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 591.
- [80]
+[80]
 Underfull \hbox (badness 10000) in paragraph at lines 609--613
 
  []
@@ -3281,12 +3228,6 @@ Package babel Info: Redefining ngerman shorthand "~
 [81
 
 ]
-Overfull \hbox (11.48492pt too wide) in paragraph at lines 643--644
-\OT1/jkp/m/it/12 cap-ture() \OT1/jkp/m/n/12 des Ka-me-ra-ob-jekts \OT1/jkp/m/it
-/12 ca-me-ra \OT1/jkp/m/n/12 auf-ge-ru-fen. Dies ist die ei-gent-li-che Ausl[]o
-sefunktion
- []
-
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 656.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3295,7 +3236,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 656.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 656.
-[82]
+ [82]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 685.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3318,7 +3259,7 @@ Package babel Info: Redefining ngerman shorthand "~
  [84
 
 ]
-<Bilder/Screenshot_20170412-213200.PNG, id=1539, 1084.05pt x 1927.2pt>
+<Bilder/Screenshot_20170412-213200.PNG, id=1578, 1084.05pt x 1927.2pt>
 File: Bilder/Screenshot_20170412-213200.PNG Graphic file (type png)
 
 <use Bilder/Screenshot_20170412-213200.PNG>
@@ -3357,12 +3298,12 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 5.
 
-Overfull \hbox (2.61185pt too wide) in paragraph at lines 7--8
-\OT1/jkp/m/n/12 Nachfolgende Ab-bil-dung (X) zeigt den Ab-schnitt 'Kos-ten und 
-Li-zenz' der aus-gef[]ullten
+Overfull \hbox (9.16457pt too wide) in paragraph at lines 7--8
+\OT1/jkp/m/n/12 Nachfolgende Ab-bil-dung []10.1[] zeigt den Ab-schnitt 'Kos-ten
+ und Li-zenz' der aus-gef[]ullten
  []
 
-<Bilder/Auswertung_KostenLizenz.PNG, id=1558, 839.38594pt x 62.48344pt>
+<Bilder/Auswertung_KostenLizenz.PNG, id=1599, 839.38594pt x 62.48344pt>
 File: Bilder/Auswertung_KostenLizenz.PNG Graphic file (type png)
 
 <use Bilder/Auswertung_KostenLizenz.PNG>
@@ -3401,7 +3342,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 24.
 
-<Bilder/Auswertung_SupportCommunity.PNG, id=1565, 877.02657pt x 77.53969pt>
+<Bilder/Auswertung_SupportCommunity.PNG, id=1618, 877.02657pt x 77.53969pt>
 File: Bilder/Auswertung_SupportCommunity.PNG Graphic file (type png)
 
 <use Bilder/Auswertung_SupportCommunity.PNG>
@@ -3422,12 +3363,6 @@ t[]aten, so-wie Video-Crash-Kurse
 
 Underfull \hbox (badness 10000) in paragraph at lines 35--60
 
- []
-
-
-Overfull \hbox (27.29735pt too wide) in paragraph at lines 35--60
-\OT1/jkp/m/n/12 Was den Um-fang der Do-ku-men-ta-ti-on an-be-langt, so bie-tet 
-auch Re-act Na-ti-ve Erl[]auterungen
  []
 
 
@@ -3459,7 +3394,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 61.
 
-<Bilder/Auswertung_Entwicklung.PNG, id=1588, 897.3525pt x 76.78688pt>
+<Bilder/Auswertung_Entwicklung.PNG, id=1693, 897.3525pt x 76.78688pt>
 File: Bilder/Auswertung_Entwicklung.PNG Graphic file (type png)
 
 <use Bilder/Auswertung_Entwicklung.PNG>
@@ -3517,7 +3452,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 91.
 
-<Bilder/Auswertung_Hersteller.PNG, id=1616, 907.89188pt x 62.48344pt>
+<Bilder/Auswertung_Hersteller.PNG, id=1739, 907.89188pt x 62.48344pt>
 File: Bilder/Auswertung_Hersteller.PNG Graphic file (type png)
 
 <use Bilder/Auswertung_Hersteller.PNG>
@@ -3525,272 +3460,241 @@ Package pdftex.def Info: Bilder/Auswertung_Hersteller.PNG used on input line 97
 .
 (pdftex.def)             Requested size: 448.13095pt x 30.8412pt.
 
-Overfull \hbox (16.35701pt too wide) in paragraph at lines 102--109
-\OT1/jkp/m/n/12 mit der IDE 'Vi-su-al Stu-dio' ver-mu-ten k[]onnte, so steht hi
-n-ter Xa-ma-rin Inc. der Hardware-
- []
-
-
-Overfull \hbox (7.30899pt too wide) in paragraph at lines 102--109
-\OT1/jkp/m/n/12 (Stand Fe-bru-ar 2017) in der Major-Version 'Cy-cle 9'. Es wer-
-den re-gelm[]aig w[]ochentlich
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--109
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--109
-
- []
-
-
-Overfull \hbox (25.36961pt too wide) in paragraph at lines 102--109
-\OT1/jkp/m/n/12 M[]oglichkeit ge-bo-ten so-ge-nann-te 'Fea-ture Re-quests' zu s
-tel-len. Re-quests, die von gen[]ugend
- []
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 109.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 109.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 109.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 109.
-[94 <./Bilder/Auswertung_Hersteller.PNG>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 110.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 110.
-
-<Bilder/Auswertung_OSVersionen.PNG, id=1625, 918.43124pt x 77.53969pt>
-File: Bilder/Auswertung_OSVersionen.PNG Graphic file (type png)
-
-<use Bilder/Auswertung_OSVersionen.PNG>
-Package pdftex.def Info: Bilder/Auswertung_OSVersionen.PNG used on input line 1
-16.
-(pdftex.def)             Requested size: 448.13095pt x 37.83385pt.
-
-Overfull \hbox (27.79292pt too wide) in paragraph at lines 121--136
-\OT1/jkp/m/n/12 Pho-ne ab Win-dows Pho-ne 7 ent-wi-ckelt wer-den kann. Bei Win-
-dows Pho-ne 7-Anwendungen
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--136
-
- []
-
-
-Overfull \hbox (28.57362pt too wide) in paragraph at lines 121--136
-\OT1/jkp/m/n/12 dro-id, iOS, Win-dows Pho-ne und Win-dows 10 ge-schrie-ben wer-
-den. Cordova-Anwendungen
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--136
-
- []
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 136.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 136.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 136.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 136.
-[95 <./Bilder/Auswertung_OSVersionen.PNG>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 137.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 137.
-
-<Bilder/Auswertung_Funktionsumfang.PNG, id=1632, 855.94781pt x 213.04594pt>
-File: Bilder/Auswertung_Funktionsumfang.PNG Graphic file (type png)
-
-<use Bilder/Auswertung_Funktionsumfang.PNG>
-Package pdftex.def Info: Bilder/Auswertung_Funktionsumfang.PNG used on input li
-ne 143.
-(pdftex.def)             Requested size: 448.13095pt x 111.53871pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--155
+Underfull \hbox (badness 10000) in paragraph at lines 102--109
 
  []
 
 
-Overfull \hbox (7.22069pt too wide) in paragraph at lines 148--155
+Underfull \hbox (badness 10000) in paragraph at lines 102--109
+
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 109.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 109.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 109.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 109.
+[94]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 110.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 110.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 113.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 113.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 113.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 113.
+ [95 <./Bilder/Auswertung_Hersteller.PNG>]
+<Bilder/Auswertung_OSVersionen.PNG, id=1766, 918.43124pt x 77.53969pt>
+File: Bilder/Auswertung_OSVersionen.PNG Graphic file (type png)
+
+<use Bilder/Auswertung_OSVersionen.PNG>
+Package pdftex.def Info: Bilder/Auswertung_OSVersionen.PNG used on input line 1
+17.
+(pdftex.def)             Requested size: 448.13095pt x 37.83385pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--137
+
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 137.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 137.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 137.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 137.
+[96
+
+ <./Bilder/Auswertung_OSVersionen.PNG>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 138.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 138.
+
+<Bilder/Auswertung_Funktionsumfang.PNG, id=1804, 855.94781pt x 213.04594pt>
+File: Bilder/Auswertung_Funktionsumfang.PNG Graphic file (type png)
+
+<use Bilder/Auswertung_Funktionsumfang.PNG>
+Package pdftex.def Info: Bilder/Auswertung_Funktionsumfang.PNG used on input li
+ne 144.
+(pdftex.def)             Requested size: 448.13095pt x 111.53871pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--156
+
+ []
+
+
+Overfull \hbox (7.22069pt too wide) in paragraph at lines 149--156
 \OT1/jkp/m/n/12 dem Xa-ma-rin Fra-me-work kann auch mit Io-nic die na-ti-ve An-
 dro-id Kamera-Anwendung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--155
+Underfull \hbox (badness 10000) in paragraph at lines 149--156
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 155.
-[96]
+(babel)             in language  on input line 156.
+[97 <./Bilder/Auswertung_Funktionsumfang.PNG>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 155.
- [97 <./Bilder/Auswertung_Funktionsumfang.PNG>]
+(babel)             in language  on input line 156.
+ [98]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 157.
+(babel)             in language  on input line 158.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 157.
+(babel)             in language  on input line 158.
 
-<Bilder/Auswertung_GUI.PNG, id=1644, 890.5772pt x 91.84312pt>
+<Bilder/Auswertung_GUI.PNG, id=1823, 890.5772pt x 91.84312pt>
 File: Bilder/Auswertung_GUI.PNG Graphic file (type png)
 
 <use Bilder/Auswertung_GUI.PNG>
-Package pdftex.def Info: Bilder/Auswertung_GUI.PNG used on input line 163.
+Package pdftex.def Info: Bilder/Auswertung_GUI.PNG used on input line 164.
 (pdftex.def)             Requested size: 448.13095pt x 46.21432pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--175
+Underfull \hbox (badness 10000) in paragraph at lines 169--176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--175
+Underfull \hbox (badness 10000) in paragraph at lines 169--176
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 175.
+(babel)             in language  on input line 176.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 175.
+(babel)             in language  on input line 176.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 175.
+(babel)             in language  on input line 176.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 175.
-[98
+(babel)             in language  on input line 176.
+[99
 
  <./Bilder/Auswertung_GUI.PNG>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 176.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 176.
+(babel)             in language  on input line 177.
 
-<Bilder/Auswertung_Interoperabilitaet.PNG, id=1651, 904.88063pt x 77.53969pt>
+<Bilder/Auswertung_Interoperabilitaet.PNG, id=1832, 904.88063pt x 77.53969pt>
 File: Bilder/Auswertung_Interoperabilitaet.PNG Graphic file (type png)
 
 <use Bilder/Auswertung_Interoperabilitaet.PNG>
 Package pdftex.def Info: Bilder/Auswertung_Interoperabilitaet.PNG used on input
- line 182.
+ line 183.
 (pdftex.def)             Requested size: 448.13095pt x 38.40059pt.
 
-Overfull \hbox (16.71553pt too wide) in paragraph at lines 187--194
-\OT1/jkp/m/n/12 Windows-PC mit der IDE 'Vi-su-al Stu-dio' ge-ar-bei-tet wer-den
-. Auf ei-nem Apple-Computer
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 187--194
+Underfull \hbox (badness 10000) in paragraph at lines 188--195
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--194
+Underfull \hbox (badness 10000) in paragraph at lines 188--195
 
  []
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 194.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 194.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 194.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 194.
-[99 <./Bilder/Auswertung_Interoperabilitaet.PNG>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 195.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 195.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 195.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 195.
+[100 <./Bilder/Auswertung_Interoperabilitaet.PNG>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 196.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 196.
 
-<Bilder/Auswertung_Tests.PNG, id=1658, 889.82437pt x 46.67438pt>
+<Bilder/Auswertung_Tests.PNG, id=1840, 889.82437pt x 46.67438pt>
 File: Bilder/Auswertung_Tests.PNG Graphic file (type png)
 
 <use Bilder/Auswertung_Tests.PNG>
-Package pdftex.def Info: Bilder/Auswertung_Tests.PNG used on input line 201.
+Package pdftex.def Info: Bilder/Auswertung_Tests.PNG used on input line 202.
 (pdftex.def)             Requested size: 448.13095pt x 23.5059pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--213
+Underfull \hbox (badness 10000) in paragraph at lines 207--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--213
+Underfull \hbox (badness 10000) in paragraph at lines 207--214
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 213.
+(babel)             in language  on input line 214.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 213.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 213.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 213.
-[100 <./Bilder/Auswertung_Tests.PNG>]
+(babel)             in language  on input line 214.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 214.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 214.
+[101 <./Bilder/Auswertung_Tests.PNG>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 215.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 215.
 
-Overfull \hbox (16.20865pt too wide) in paragraph at lines 216--223
+Overfull \hbox (16.20865pt too wide) in paragraph at lines 217--224
 [] 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 226.
+(babel)             in language  on input line 227.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 226.
-<Bilder/Auswertung_Programmiersprachen.PNG, id=1665, 975.645pt x 32.37094pt>
+(babel)             in language  on input line 227.
+<Bilder/Auswertung_Programmiersprachen.PNG, id=1859, 975.645pt x 32.37094pt>
 File: Bilder/Auswertung_Programmiersprachen.PNG Graphic file (type png)
 
 <use Bilder/Auswertung_Programmiersprachen.PNG>
 Package pdftex.def Info: Bilder/Auswertung_Programmiersprachen.PNG used on inpu
-t line 232.
+t line 233.
 (pdftex.def)             Requested size: 448.13095pt x 14.86858pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 239.
+(babel)             in language  on input line 240.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 239.
+(babel)             in language  on input line 240.
 
-<Bilder/Auswertung_Sicherheit.PNG, id=1666, 949.29657pt x 47.42719pt>
+<Bilder/Auswertung_Sicherheit.PNG, id=1861, 949.29657pt x 47.42719pt>
 File: Bilder/Auswertung_Sicherheit.PNG Graphic file (type png)
 
 <use Bilder/Auswertung_Sicherheit.PNG>
 Package pdftex.def Info: Bilder/Auswertung_Sicherheit.PNG used on input line 24
-5.
+6.
 (pdftex.def)             Requested size: 448.13095pt x 22.38847pt.
 ) (Fazit.tex
-Overfull \hbox (20.98456pt too wide) in paragraph at lines 250--1
-\OT1/jkp/m/n/12 tema-na-ge-ment un-terst[]utzen und Be-rech-ti-gun-gen wie bei 
-na-ti-ven Android-Anwendungen
- []
-
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3799,8 +3703,8 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-[101 <./Bilder/Auswertung_Programmiersprachen.PNG> <./Bilder/Auswertung_Sicherh
-eit.PNG>]
+ [102 <./Bilder/Auswertung_Programmiersprachen.PNG> <./Bilder/Auswertung_Sicher
+heit.PNG>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3809,7 +3713,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
- [102]
+ [103]
 chapter 11.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
@@ -3826,12 +3730,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--111
  []
 
 
-Overfull \hbox (10.44934pt too wide) in paragraph at lines 3--111
-\OT1/jkp/m/n/12 Was die In-stal-la-ti-on und Be-nutz-bar-keit be-trifft, konn-t
-en mit al-len Fra-me-works []ahnliche
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 3--111
 
  []
@@ -3864,7 +3762,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 111.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 111.
-[103
+[104
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
@@ -3875,16 +3773,16 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 111.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 111.
- [104]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 112.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 112.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 112.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 112.
  [105]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 112.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 112.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 112.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 112.
+ [106]
 chapter without number
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 113.
@@ -3919,7 +3817,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 113.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 113.
-[106
+[107
 
 ]
 Overfull \hbox (14.00128pt too wide) in paragraph at lines 114--114
@@ -3933,6 +3831,20 @@ Overfull \hbox (20.92023pt too wide) in paragraph at lines 114--114
 [][]\OT1/jkp/m/it/12 Google Key-word Pla-ner \OT1/jkp/m/n/12 (2017). \OT1/jkp/m
 /sc/12 url\OT1/jkp/m/n/12 : []$\OT1/jkptt/m/n/12 https : / / adwords . google .
  com / ko / KeywordPlanner /$
+ []
+
+
+Overfull \hbox (27.10522pt too wide) in paragraph at lines 114--114
+[][]\OT1/jkp/m/it/12 Ionic Fo-rum \OT1/jkp/m/n/12 (2017). \OT1/jkp/m/sc/12 url\
+OT1/jkp/m/n/12 : []$\OT1/jkptt/m/n/12 https : / / forum . ionicframework . com/
+$[] \OT1/jkp/m/n/12 (be-sucht am 03.05.2017). 
+ []
+
+
+Overfull \hbox (12.11728pt too wide) in paragraph at lines 114--114
+[][]\OT1/jkp/m/it/12 Ionic Fra-me-work \OT1/jkp/m/n/12 (2017). \OT1/jkp/m/sc/12
+ url\OT1/jkp/m/n/12 : []$\OT1/jkptt/m/n/12 https : / / ionicframework . com/$[]
+ \OT1/jkp/m/n/12 (be-sucht am 27.01.2017). 
  []
 
 
@@ -3960,11 +3872,33 @@ $\OT1/jkptt/m/n/12 verfuegbaren -[] applikationen -[] fuer -[] das -[] apple -[
 ] iphone/$[] \OT1/jkp/m/n/12 (be-sucht am 11.02.2017). 
  []
 
-
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 113.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 113.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 113.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 113.
+[108]
 Overfull \hbox (0.89728pt too wide) in paragraph at lines 114--114
 [][]\OT1/jkp/m/it/12 TypeScript \OT1/jkp/m/n/12 (2017). \OT1/jkp/m/sc/12 url\OT
 1/jkp/m/n/12 : []$\OT1/jkptt/m/n/12 http : / / www . typescriptlang . org/$[] \
 OT1/jkp/m/n/12 (be-sucht am 07.04.2017). 
+ []
+
+
+Overfull \hbox (8.67332pt too wide) in paragraph at lines 114--114
+[][]\OT1/jkp/m/it/12 Xamarin Fo-rum \OT1/jkp/m/n/12 (2017). \OT1/jkp/m/sc/12 ur
+l\OT1/jkp/m/n/12 : []$\OT1/jkptt/m/n/12 https : / / forums . xamarin . com/$[] 
+\OT1/jkp/m/n/12 (be-sucht am 03.05.2017). 
+ []
+
+
+Overfull \hbox (5.86534pt too wide) in paragraph at lines 114--114
+[][]\OT1/jkp/m/it/12 Xamarin Pri-cing \OT1/jkp/m/n/12 (2017). \OT1/jkp/m/sc/12 
+url\OT1/jkp/m/n/12 : []$\OT1/jkptt/m/n/12 https : / / store . xamarin . com/$[]
+ \OT1/jkp/m/n/12 (be-sucht am 13.04.2017). 
  []
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
@@ -3976,7 +3910,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 117.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 117.
-[107]
+[109]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
  (Projektarbeit.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
@@ -3987,22 +3921,19 @@ Package rerunfilecheck Info: File `Projektarbeit.out' has not changed.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package logreq Info: Writing requests to 'Projektarbeit.run.xml'.
 \openout1 = `Projektarbeit.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
  ) 
 Here is how much of TeX's memory you used:
- 20756 strings out of 493634
- 354087 string characters out of 3147013
- 949920 words of memory out of 3000000
- 22993 multiletter control sequences out of 15000+200000
+ 20859 strings out of 493634
+ 355608 string characters out of 3147013
+ 949666 words of memory out of 3000000
+ 23052 multiletter control sequences out of 15000+200000
  61625 words of font info for 144 fonts, out of 3000000 for 9000
  1029 hyphenation exceptions out of 8191
- 59i,21n,86p,1945b,3118s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,21n,86p,1994b,3118s stack positions out of 5000i,500n,10000p,200000b,50000s
 {F:/Programme/MikTex/fonts/enc/dvips/fontname/8r.enc}{F:/Programme/MikTex/fon
 ts/enc/dvips/kpfonts/kpfonts-expert.enc}<F:/Programme/MikTex/fonts/type1/public
 /kpfonts/jkpbn8a.pfb><F:/Programme/MikTex/fonts/type1/public/kpfonts/jkpbne.pfb
@@ -4016,9 +3947,9 @@ fb><F:/Programme/MikTex/fonts/type1/public/kpfonts/jkpmsc8a.pfb><F:/Programme/M
 ikTex/fonts/type1/public/kpfonts/jkpssbn8a.pfb><F:/Programme/MikTex/fonts/type1
 /public/kpfonts/jkpssbne.pfb><F:/Programme/MikTex/fonts/type1/public/kpfonts/jk
 psy.pfb><F:/Programme/MikTex/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on Projektarbeit.pdf (107 pages, 7491798 bytes).
+Output written on Projektarbeit.pdf (109 pages, 7518352 bytes).
 PDF statistics:
- 1952 PDF objects out of 2073 (max. 8388607)
- 758 named destinations out of 1000 (max. 500000)
+ 2183 PDF objects out of 2487 (max. 8388607)
+ 802 named destinations out of 1000 (max. 500000)
  716 words of extra memory for PDF output out of 10000 (max. 10000000)
 

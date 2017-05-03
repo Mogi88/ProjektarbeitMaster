@@ -401,6 +401,38 @@
       \field{title}{Challenges for Mobile Application Development}
       \field{year}{2010}
     \endentry
+    \entry{IonicForums}{online}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
+      \field{labelyear}{2017}
+      \field{labelmonth}{05}
+      \field{labelday}{03}
+      \field{datelabelsource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Ionic Forum}
+      \field{urlday}{03}
+      \field{urlmonth}{05}
+      \field{urlyear}{2017}
+      \verb{url}
+      \verb https://forum.ionicframework.com/
+      \endverb
+    \endentry
+    \entry{IonicHomepage}{online}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
+      \field{labelyear}{2017}
+      \field{labelmonth}{01}
+      \field{labelday}{27}
+      \field{datelabelsource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Ionic Framework}
+      \field{urlday}{27}
+      \field{urlmonth}{01}
+      \field{urlyear}{2017}
+      \verb{url}
+      \verb https://ionicframework.com/
+      \endverb
+    \endentry
     \entry{iOS}{online}{}
       \field{sortinit}{i}
       \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
@@ -549,6 +581,54 @@
       \field{pages}{179\bibrangedash 186}
       \range{pages}{8}
     \endentry
+    \entry{React}{online}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelyear}{2017}
+      \field{labelmonth}{05}
+      \field{labelday}{01}
+      \field{datelabelsource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{React}
+      \field{urlday}{01}
+      \field{urlmonth}{05}
+      \field{urlyear}{2017}
+      \verb{url}
+      \verb https://facebook.github.io/react/
+      \endverb
+    \endentry
+    \entry{ReactNativeHomepage}{online}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelyear}{2017}
+      \field{labelmonth}{01}
+      \field{labelday}{27}
+      \field{datelabelsource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{React Native}
+      \field{urlday}{27}
+      \field{urlmonth}{01}
+      \field{urlyear}{2017}
+      \verb{url}
+      \verb http://www.reactnative.com/
+      \endverb
+    \endentry
+    \entry{ReactNativeFB}{online}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelyear}{2017}
+      \field{labelmonth}{05}
+      \field{labelday}{03}
+      \field{datelabelsource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{React Native Facebook Community}
+      \field{urlday}{03}
+      \field{urlmonth}{05}
+      \field{urlyear}{2017}
+      \verb{url}
+      \verb https://www.facebook.com/groups/react.native.community/
+      \endverb
+    \endentry
     \entry{StackOverfolw}{online}{}
       \field{sortinit}{S}
       \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
@@ -630,6 +710,54 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Frameworks und Tools für Cross-Plattform-Programmierung}
+    \endentry
+    \entry{XamarinForums}{online}{}
+      \field{sortinit}{X}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labelyear}{2017}
+      \field{labelmonth}{05}
+      \field{labelday}{03}
+      \field{datelabelsource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Xamarin Forum}
+      \field{urlday}{03}
+      \field{urlmonth}{05}
+      \field{urlyear}{2017}
+      \verb{url}
+      \verb https://forums.xamarin.com/
+      \endverb
+    \endentry
+    \entry{XamarinHomepage}{online}{}
+      \field{sortinit}{X}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labelyear}{2017}
+      \field{labelmonth}{01}
+      \field{labelday}{27}
+      \field{datelabelsource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Xamarin Framework Homepage}
+      \field{urlday}{27}
+      \field{urlmonth}{01}
+      \field{urlyear}{2017}
+      \verb{url}
+      \verb https://www.xamarin.com/
+      \endverb
+    \endentry
+    \entry{XamarinPricing}{online}{}
+      \field{sortinit}{X}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labelyear}{2017}
+      \field{labelmonth}{04}
+      \field{labelday}{13}
+      \field{datelabelsource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Xamarin Pricing}
+      \field{urlday}{13}
+      \field{urlmonth}{04}
+      \field{urlyear}{2017}
+      \verb{url}
+      \verb https://store.xamarin.com/
+      \endverb
     \endentry
   \endsortlist
   \missing{Statista}
