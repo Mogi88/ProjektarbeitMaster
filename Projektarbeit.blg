@@ -1,21 +1,21 @@
 [0] Config.pm:327> INFO - This is Biber 2.3
 [0] Config.pm:330> INFO - Logfile is 'Projektarbeit.blg'
-[36] biber-MSWIN:284> INFO - === 
-[64] Biber.pm:346> INFO - Reading 'Projektarbeit.bcf'
-[171] Biber.pm:689> INFO - Found 46 citekeys in bib section 0
-[177] Biber.pm:3066> INFO - Processing section 0
-[197] Biber.pm:3206> INFO - Looking for bibtex format file 'Literatur.bib' for section 0
-[202] bibtex.pm:1062> INFO - Decoding LaTeX character macros into UTF-8
-[204] bibtex.pm:923> INFO - Found BibTeX data source 'Literatur.bib'
-[206] Utils.pm:147> WARN - Duplicate entry key: 'Android' in file 'Literatur.bib', skipping ...
-[208] Utils.pm:147> WARN - Duplicate entry key: 'AngularJS' in file 'Literatur.bib', skipping ...
-[222] Utils.pm:147> WARN - Possible typo (case mismatch) between citation and datasource keys: 'Statista' and 'statista' in file 'Literatur.bib'
-[233] Utils.pm:147> WARN - I didn't find a database entry for 'Statista' (section 0)
-[235] Utils.pm:147> WARN - The field 'pages' in entry 'ChallMobAppDev' cannot be null, deleting it
-[703] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[703] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[704] Biber.pm:2943> INFO - Sorting list 'nyt' of type 'entry' with scheme 'nyt' and locale 'de-DE'
-[704] Biber.pm:2947> INFO - No sort tailoring available for locale 'de-DE'
-[801] bbl.pm:505> INFO - Writing 'Projektarbeit.bbl' with encoding 'UTF-8'
-[804] bbl.pm:596> INFO - Output to Projektarbeit.bbl
-[805] Biber.pm:107> INFO - WARNINGS: 5
+[98] biber-MSWIN:284> INFO - === 
+[153] Biber.pm:346> INFO - Reading 'Projektarbeit.bcf'
+[257] Biber.pm:689> INFO - Found 46 citekeys in bib section 0
+[262] Biber.pm:3066> INFO - Processing section 0
+[295] Biber.pm:3206> INFO - Looking for bibtex format file 'Literatur.bib' for section 0
+[300] bibtex.pm:1062> INFO - Decoding LaTeX character macros into UTF-8
+[303] bibtex.pm:923> INFO - Found BibTeX data source 'Literatur.bib'
+[305] Utils.pm:147> WARN - Duplicate entry key: 'Android' in file 'Literatur.bib', skipping ...
+[307] Utils.pm:147> WARN - Duplicate entry key: 'AngularJS' in file 'Literatur.bib', skipping ...
+[325] Utils.pm:147> WARN - Possible typo (case mismatch) between citation and datasource keys: 'Statista' and 'statista' in file 'Literatur.bib'
+[339] Utils.pm:147> WARN - I didn't find a database entry for 'Statista' (section 0)
+[341] Utils.pm:147> WARN - The field 'pages' in entry 'ChallMobAppDev' cannot be null, deleting it
+[801] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[801] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[802] Biber.pm:2943> INFO - Sorting list 'nyt' of type 'entry' with scheme 'nyt' and locale 'de-DE'
+[802] Biber.pm:2947> INFO - No sort tailoring available for locale 'de-DE'
+[901] bbl.pm:505> INFO - Writing 'Projektarbeit.bbl' with encoding 'UTF-8'
+[905] bbl.pm:596> INFO - Output to Projektarbeit.bbl
+[906] Biber.pm:107> INFO - WARNINGS: 5
