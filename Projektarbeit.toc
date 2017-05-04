@@ -122,12 +122,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {10.9}Tests}{101}{section.10.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.10}Performance}{102}{section.10.10}
+\contentsline {section}{\numberline {10.10}Performance und Speichergr\IeC {\"o}\IeC {\ss }e der Anwendung}{102}{section.10.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.11}Programmiersprache}{102}{section.10.11}
+\contentsline {section}{\numberline {10.11}Programmiersprache}{103}{section.10.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.12}Sicherheit}{102}{section.10.12}
+\contentsline {section}{\numberline {10.12}Sicherheit}{103}{section.10.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Fazit}{104}{chapter.11}
+\contentsline {chapter}{\numberline {11}Fazit}{105}{chapter.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Literatur}{107}{chapter*.28}
+\contentsline {chapter}{\nonumberline Literatur}{109}{chapter*.28}

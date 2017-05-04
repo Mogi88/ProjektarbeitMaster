@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.16)  4 MAY 2017 17:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.16)  4 MAY 2017 20:54
 entering extended mode
 **./Projektarbeit.tex
 (Projektarbeit.tex
@@ -1593,7 +1593,7 @@ Overfull \hbox (1.67993pt too wide) detected at line 127
 
 
 Overfull \hbox (1.01994pt too wide) detected at line 127
- []\OT1/jkp/m/n/12 102
+ []\OT1/jkp/m/n/12 103
  []
 
 
@@ -1603,7 +1603,7 @@ Overfull \hbox (1.67993pt too wide) detected at line 129
 
 
 Overfull \hbox (1.01994pt too wide) detected at line 129
- []\OT1/jkp/m/n/12 102
+ []\OT1/jkp/m/n/12 103
  []
 
 )
@@ -3051,11 +3051,11 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 382.
  [71]
-<Bilder/Screenshot_20170328-165235.PNG, id=1295, 1084.05pt x 1927.2pt>
-File: Bilder/Screenshot_20170328-165235.PNG Graphic file (type png)
+<Bilder/Screenshot_20170504-190636.PNG, id=1295, 1084.05pt x 1927.2pt>
+File: Bilder/Screenshot_20170504-190636.PNG Graphic file (type png)
 
-<use Bilder/Screenshot_20170328-165235.PNG>
-Package pdftex.def Info: Bilder/Screenshot_20170328-165235.PNG used on input li
+<use Bilder/Screenshot_20170504-190636.PNG>
+Package pdftex.def Info: Bilder/Screenshot_20170504-190636.PNG used on input li
 ne 386.
 (pdftex.def)             Requested size: 179.24963pt x 318.65063pt.
 
@@ -3072,7 +3072,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 399.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 399.
-[72 <./Bilder/Screenshot_20170328-165235.PNG>]
+[72 <./Bilder/Screenshot_20170504-190636.PNG>]
 Overfull \hbox (2.7461pt too wide) in paragraph at lines 403--407
 \OT1/jkp/m/n/12 Ionic 2 bringt ein \OT1/jkp/m/it/12 na-ti-ve \OT1/jkp/m/n/12 Pa
 -ket mit sich, in dem Klas-sen de-fi-niert sind, wel-che Cordova-
@@ -3667,32 +3667,65 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 215.
 
-Overfull \hbox (16.20865pt too wide) in paragraph at lines 217--224
-[] 
+<Bilder/Auswertung_Performance.PNG, id=1859, 976.39781pt x 47.42719pt>
+File: Bilder/Auswertung_Performance.PNG Graphic file (type png)
+
+<use Bilder/Auswertung_Performance.PNG>
+Package pdftex.def Info: Bilder/Auswertung_Performance.PNG used on input line 2
+21.
+(pdftex.def)             Requested size: 448.13095pt x 21.76755pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--228
+
+ []
+
+
+Overfull \hbox (24.96863pt too wide) in paragraph at lines 229--242
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--242
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--242
+
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 227.
+(babel)             in language  on input line 242.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 227.
-<Bilder/Auswertung_Programmiersprachen.PNG, id=1859, 975.645pt x 32.37094pt>
+(babel)             in language  on input line 242.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 242.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 242.
+[102 <./Bilder/Auswertung_Performance.PNG>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 244.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 244.
+
+<Bilder/Auswertung_Programmiersprachen.PNG, id=1870, 975.645pt x 32.37094pt>
 File: Bilder/Auswertung_Programmiersprachen.PNG Graphic file (type png)
 
 <use Bilder/Auswertung_Programmiersprachen.PNG>
 Package pdftex.def Info: Bilder/Auswertung_Programmiersprachen.PNG used on inpu
-t line 233.
+t line 250.
 (pdftex.def)             Requested size: 448.13095pt x 14.86858pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 240.
+(babel)             in language  on input line 257.
 
-<Bilder/Auswertung_Sicherheit.PNG, id=1861, 949.29657pt x 47.42719pt>
+<Bilder/Auswertung_Sicherheit.PNG, id=1872, 949.29657pt x 47.42719pt>
 File: Bilder/Auswertung_Sicherheit.PNG Graphic file (type png)
 
 <use Bilder/Auswertung_Sicherheit.PNG>
-Package pdftex.def Info: Bilder/Auswertung_Sicherheit.PNG used on input line 24
-6.
+Package pdftex.def Info: Bilder/Auswertung_Sicherheit.PNG used on input line 26
+3.
 (pdftex.def)             Requested size: 448.13095pt x 22.38847pt.
 ) (Fazit.tex
 Package babel Info: Redefining ngerman shorthand "|
@@ -3703,7 +3736,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
- [102 <./Bilder/Auswertung_Programmiersprachen.PNG> <./Bilder/Auswertung_Sicher
+ [103 <./Bilder/Auswertung_Programmiersprachen.PNG> <./Bilder/Auswertung_Sicher
 heit.PNG>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
@@ -3713,7 +3746,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
- [103]
+ [104]
 chapter 11.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
@@ -3762,7 +3795,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 111.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 111.
-[104
+[105
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
@@ -3773,16 +3806,25 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 111.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 111.
- [105]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 112.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 112.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 112.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 112.
  [106]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 111.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 111.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 111.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 111.
+ [107]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 112.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 112.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 112.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 112.
+ [108]
 chapter without number
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 113.
@@ -3817,7 +3859,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 113.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 113.
-[107
+[109
 
 ]
 Overfull \hbox (14.00128pt too wide) in paragraph at lines 114--114
@@ -3880,7 +3922,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 113.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 113.
-[108]
+[110]
 Overfull \hbox (0.89728pt too wide) in paragraph at lines 114--114
 [][]\OT1/jkp/m/it/12 TypeScript \OT1/jkp/m/n/12 (2017). \OT1/jkp/m/sc/12 url\OT
 1/jkp/m/n/12 : []$\OT1/jkptt/m/n/12 http : / / www . typescriptlang . org/$[] \
@@ -3910,13 +3952,13 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 117.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 117.
-[109]
+[111]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
  (Projektarbeit.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
 Package rerunfilecheck Info: File `Projektarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: 172CEF0C7647704B0DD1CCC3B4E6E5C9;4286.
+(rerunfilecheck)             Checksum: C4FD8AF1B058EB380935EE4C1A2ABF9A;4324.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -3927,10 +3969,10 @@ Package logreq Info: Writing requests to 'Projektarbeit.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
  ) 
 Here is how much of TeX's memory you used:
- 20859 strings out of 493634
- 355608 string characters out of 3147013
- 950666 words of memory out of 3000000
- 23052 multiletter control sequences out of 15000+200000
+ 20869 strings out of 493634
+ 355837 string characters out of 3147013
+ 950848 words of memory out of 3000000
+ 23058 multiletter control sequences out of 15000+200000
  61625 words of font info for 144 fonts, out of 3000000 for 9000
  1029 hyphenation exceptions out of 8191
  60i,21n,86p,1994b,3118s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3947,9 +3989,9 @@ fb><F:/Programme/MikTex/fonts/type1/public/kpfonts/jkpmsc8a.pfb><F:/Programme/M
 ikTex/fonts/type1/public/kpfonts/jkpssbn8a.pfb><F:/Programme/MikTex/fonts/type1
 /public/kpfonts/jkpssbne.pfb><F:/Programme/MikTex/fonts/type1/public/kpfonts/jk
 psy.pfb><F:/Programme/MikTex/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on Projektarbeit.pdf (109 pages, 7518407 bytes).
+Output written on Projektarbeit.pdf (111 pages, 7536473 bytes).
 PDF statistics:
- 2183 PDF objects out of 2487 (max. 8388607)
- 802 named destinations out of 1000 (max. 500000)
- 716 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2198 PDF objects out of 2487 (max. 8388607)
+ 805 named destinations out of 1000 (max. 500000)
+ 721 words of extra memory for PDF output out of 10000 (max. 10000000)
 

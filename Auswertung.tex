@@ -212,16 +212,33 @@ Ionic bietet Live Browser Tests für die Entwicklung von Ionic Anwendungen an. D
 \\
 Das React Native Repository stellt verschiedene Jest Tests zur Verfügung, die via \textit{npm} in einer Kommando-Shell ausgeführt werden können. Jest Tests sind JavaScript-Only Tests. Für React Native Android Anwendungen können Unit Tests geschrieben und ausgeführt werden und sowohl für Android als auch iOS sind Integrationstests möglich\footcite{ReactNativeHomepage}. 
 
-\section{Performance}
+\section{Performance und Speichergröße der Anwendung} \label{AuswPerf}
+
+Die Bewertung der einzelnen Frameworks in der Kategorie 'Performance und Speichergröße der Anwendung' ist in nachfolgender Abbildung \ref{fig:AuswPerf} dargestellt.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\textwidth]{Bilder/Auswertung_Performance.PNG}
+	\caption{Bewertungsmatrix Kategorie Performance und Speichergröße der Anwendung}
+	\label{fig:AuswPerf}
+\end{figure}
+
+Um die Performance der einzelnen Anwendungen zu testen, wurden 4 einzelne Funktionen überprüft: Kamera öffnen, Bild aufnehmen, Sensordaten lesen und Galerie laden. Bei jeder Kategorie wurde bei jeder Anwendung die Zeit gemessen, bis genannter Vorgang abgeschlossen war. Zum Beispiel bei der Kategorie 'Sensordaten lesen' die Zeit zwischen dem Betätigen des Startbuttons bis zur Anzeige der ersten Sensordaten. Je Kategorie und Framework wurden 3 Messungen durchgeführt. Nachfolgende Tabelle zeigt die berechneten Mittelwerte der Messergebnisse pro Framework und Kategorie:
+\\
 
 \begin{tabular}{lllll}
-\textbf{Framework} & \textbf{Kamera öffnen} & \textbf{Bild speichern} & \textbf{Sensordaten lesen} & \textbf{Galerie laden}\\
-nativ & 1 & 1 & 1 & 1\\
-Xamarin & 1 & 1 & 1 & 1\\
-Ionic & 1 & 1 & 1 & 1\\
-React Native & 1 & 1 & 1 & 1\\
+\textbf{Framework} & \textbf{Kamera öffnen} & \textbf{Bild aufnehmen} & \textbf{Sensordaten lesen} & \textbf{Galerie laden}\\
+nativ & 1,60s & 2,72s & 0,85s & 1,86s\\
+Xamarin & 1,97s & 2,57s & 0,73s & 2,09s\\
+Ionic & 1,71s & 2,99s & 1,38s & 1,21s\\
+React Native & 3,36s & 2,69s & 0,85s & 0,71s\\
 \end{tabular}
-
+\\
+\\
+\\
+Je Kategorie wurden die Noten 1 (am besten abgeschnitten) bis 3 (am schlechtesten abgeschnitten) an die Frameworks vergeben. Summe dieser Noten ergaben die Bewertungsergebnisse in Abbildung \ref{fig:AuswPerf}. So ergibt sich für die getesteten Funktionalitäten, dass mit dem Framework Xamarin die beste Performance und mit dem Framework Ionic die schlechteste Performance erzielt wurde. Den größten Performance-Unterschied gab es allerdings in der Kategorie 'Kamera öffnen'. Hier war die Performance der React Native Anwendung deutlich schlechter als die der Konkurrenz. Die React Native Anwendung ist allerdings auch die einzige Anwendung, die nicht die integrierte Android Kamera-Anwendung startet, sondern eine eigens erstellte Kamera-Anwendung lädt. 
+\\
+Bei der Speichergröße der erstellten APKs ist das Ergebnis der Bewertung der Frameworks entgegengesetzt zum Ergebnis bei der Performance. Hier führt Ionic mit einer Größe des APKs von gerade einmal 5,405 KB. Knapp größer ist das APK der React Native Anwendung mit 7,967 KB. Das APK der Xamarin Anwendung ist mit 15,722 KB hingegen fast 3 Mal so groß wie das der Ionic Anwendung. 
 
 
 \section{Programmiersprache}
